@@ -44,7 +44,7 @@
   padding: 0.2rem 0;
   transition: 0.4s;
   img {
-    width: 76px;
+    width: 95px;
     transition: 0.4s;
   }
 }
@@ -77,7 +77,7 @@ nav {
 
       a {
         color: #fff;
-        font-size: 0.7rem;
+        font-size: 12px;
         font-weight: 400;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -108,8 +108,14 @@ nav {
   width: 42rem;
   transition: 0.4s;
   margin-right: 0;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 
+  ul {
+    justify-content: flex-end;
+  }
+  ul li {
+    padding: 8px 12px;
+  }
   ul li a::before {
     height: 0;
     left: 12px;

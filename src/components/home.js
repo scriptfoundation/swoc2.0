@@ -133,7 +133,7 @@ class Home extends Component {
                         <h3>This time we are together</h3>
                         <div className="together-logos">
                             <div className="logo-swoc">
-                                <img src={"/img/logo-1-copy.png"} />
+                                <img src={"/img/logo-1-no-label.png"} />
                             </div>
                             <span>+</span>
                             <div className="logo-cwoc">

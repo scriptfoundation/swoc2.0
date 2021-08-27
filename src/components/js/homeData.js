@@ -105,15 +105,15 @@ export const GoldSponsors = [
         sponsorImg: "/img/logos/GitHub_Logo.svg",
     },
     {
-        sponsorLink: "https://github.com/",
+        sponsorLink: "https://polygon.technology/",
         sponsorImg: "/img/logos/Polygon_Logo.svg",
     },
     {
-        sponsorLink: "https://github.com/",
+        sponsorLink: "https://tezos.com/",
         sponsorImg: "/img/logos/Tezos_Logo.svg",
     },
     {
-        sponsorLink: "https://github.com/",
+        sponsorLink: "https://celo.org/",
         sponsorImg: "/img/logos/Celo_Logo.svg",
     },
 ]
