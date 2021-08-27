@@ -69,7 +69,7 @@ class Home extends Component {
                 {/* body */}
             
             
-                <a name="about"></a>
+                <a name="/#about"></a>
                 <section className="body-content about-swoc" id="about">
                     <div className="about-content col-lg-7">
                         <h3>About <span>SWOC</span></h3>
@@ -146,7 +146,7 @@ class Home extends Component {
 
                 {/* timeline */}
                 <section className="timeline">
-                    <a name="timeline"></a>
+                    <a name="/#timeline"></a>
                     <div className="timeline-head">
                         <h3 className="card__card__title">Program Timeline</h3>
                     </div>
@@ -216,7 +216,7 @@ class Home extends Component {
                 </section>
 
                 <section className="sponsors-section">
-                    <a name="sponsors"></a>
+                    <a name="/#sponsors"></a>
                     <div className="body-content powered-conatiner">
                         <h3 className="">Powered by</h3>
                         <img src={"/img/logos/Devfolio_Logo.svg"} />

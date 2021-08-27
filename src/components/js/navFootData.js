@@ -5,11 +5,11 @@ export const navItems = [
     },
     {
         title: "Projects",
-        url: "/project",
+        url: "/#/project",
     },
     {
         title: "Sponsors",
-        url: "/#sponsors",
+        url: "/#/#sponsors",
     },
     {
         title: "Our Team",
@@ -17,7 +17,7 @@ export const navItems = [
     },
     {
         title: "Contact Us",
-        url: "/#contact",
+        url: "/#/#contact",
     },
 ]
 

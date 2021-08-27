@@ -126,7 +126,7 @@ class Project extends Component {
                 {/* projects  */}
 
                 <section className="proj-body">
-                    <a name="projs"></a>
+                    <a name="/project/#projs"></a>
                     <div className={this.state.scrollStamp > 690 ? "p-search-section search-scrolled" : "p-search-section" }>
                         <div className="p-search">
                             <div className="p-search-input">
@@ -145,14 +145,14 @@ class Project extends Component {
                             <div className="p-prev-projs">
                                 <button className="p-projs2021" type="button" onClick={() => {
                                         this.setState({ projectList: projectsDataLatest, activeStack: "" })
-                                        window.location.href = "#projs"
+                                        window.location.href = "/#/project/#projs"
                                     }}>
                                     2021 Projects
                                     {/* <i className="fa fa-angle-right"></i> */}
                                 </button>
                                 <button className="p-projs2020" type="button" onClick={() => {
                                         this.setState({ projectList: projectsDataPrevOne, activeStack: "" })
-                                        window.location.href = "#projs"
+                                        window.location.href = "/#/project/#projs"
                                     }}>
                                     2020 Projects
                                     {/* <i className="fa fa-angle-right"></i> */}

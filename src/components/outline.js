@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import './css/outline.scss'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -101,7 +101,7 @@ class Index extends Component {
                 {/* footer */}
                 <footer>
                     <section id="contact">
-                        <a name="contact"></a>
+                        <a name="/#contact"></a>
                         <div className="footer-content">
                             <div class="footer-top">
                                 <button className="back-to-top" type="button" onClick={() => {window.location.href = "#"}}>
@@ -114,13 +114,13 @@ class Index extends Component {
                                         <div className="f-nav">
                                             <ul>
                                                 <li><a href="/">Home</a></li>
-                                                <li><a href="/#about">About Us</a></li>
-                                                <li><a href="/team">Our Team</a></li>
-                                                <li><a href="/#sponsors">Sponsors</a></li>
+                                                <li><a href="/#/#about">About Us</a></li>
+                                                <li><a href="/">Our Team</a></li>
+                                                <li><a href="/#/#sponsors">Sponsors</a></li>
                                             </ul>
                                             <ul className="f-nav-ul">
-                                                <li><a href="/project">Projects</a></li>
-                                                <li><a href="/#timeline">Timeline</a></li>
+                                                <li><a href="/#/project">Projects</a></li>
+                                                <li><a href="/#/#timeline">Timeline</a></li>
                                                 <li><a href="mailto:support@www.swoc.tech">Help</a></li>
                                             </ul>
                                         </div>
