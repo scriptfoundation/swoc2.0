@@ -70,112 +70,112 @@ export const prizeItems = [
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
     {
         prizeTitle: "Top contributors",
         prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/swoc2.0/img/logos/Devfolio_Logo.svg",
+        prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
 ]
 
 export const GoldSponsors = [
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/swoc2.0/img/logos/GitHub_Logo.svg",
+        sponsorImg: "/img/logos/GitHub_Logo.svg",
     },
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/swoc2.0/img/logos/Polygon_Logo.svg",
+        sponsorImg: "/img/logos/Polygon_Logo.svg",
     },
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/swoc2.0/img/logos/Tezos_Logo.svg",
+        sponsorImg: "/img/logos/Tezos_Logo.svg",
     },
     {
         sponsorLink: "https://github.com/",
-        sponsorImg: "/swoc2.0/img/logos/Celo_Logo.svg",
+        sponsorImg: "/img/logos/Celo_Logo.svg",
     },
 ]
 export const PlatformPartners = [
     {
         sponsorLink: "https://skillenza.com/",
-        sponsorImg: "/swoc2.0/img/logos/Skillenza_logo_platform_new.svg",
+        sponsorImg: "/img/logos/Skillenza_logo_platform_new.svg",
     }
 ]
 
 export const Sponsors = [
     {
         sponsorLink: "https://codingblocks.com/",
-        sponsorImg: "/swoc2.0/img/logos/cb-min.png",
+        sponsorImg: "/img/logos/cb-min.png",
     },
     {
         sponsorLink: "https://dockship.io/",
-        sponsorImg: "/swoc2.0/img/logos/dockship-min.png",
+        sponsorImg: "/img/logos/dockship-min.png",
     },
     {
         sponsorLink: "https://givemycertificate.com/",
-        sponsorImg: "/swoc2.0/img/logos/gitvemycertifiacte-min.png",
+        sponsorImg: "/img/logos/gitvemycertifiacte-min.png",
     },
     {
         sponsorLink: "https://hackclub.com/bank/",
-        sponsorImg: "/swoc2.0/img/logos/hackclub-min.png",
+        sponsorImg: "/img/logos/hackclub-min.png",
     },
     {
         sponsorLink: "https://1password.com/",
-        sponsorImg: "/swoc2.0/img/logos/1password-min.png",
+        sponsorImg: "/img/logos/1password-min.png",
     },
     {
         sponsorLink: "https://balsamiq.com/",
-        sponsorImg: "/swoc2.0/img/logos/balsamiq-logo-noborder-print-min.png",
+        sponsorImg: "/img/logos/balsamiq-logo-noborder-print-min.png",
     },
     {
         sponsorLink: "https://repl.it/",
-        sponsorImg: "/swoc2.0/img/logos/replit-min.png",
+        sponsorImg: "/img/logos/replit-min.png",
     },
     {
         sponsorLink: "http://rosenfeldmedia.com/",
-        sponsorImg: "/swoc2.0/img/logos/Rosenfeld-min.png",
+        sponsorImg: "/img/logos/Rosenfeld-min.png",
     },
     {
         sponsorLink: "https://www.jetbrains.com/",
-        sponsorImg: "/swoc2.0/img/logos/jetbrains-min.png",
+        sponsorImg: "/img/logos/jetbrains-min.png",
     },
     {
         sponsorLink: "https://www.axure.com/",
-        sponsorImg: "/swoc2.0/img/logos/axure.png",
+        sponsorImg: "/img/logos/axure.png",
     },
     {
         sponsorLink: "https://www.digitalocean.com/",
-        sponsorImg: "/swoc2.0/img/logos/DO_Logo_Horizontal_Blue.png",
+        sponsorImg: "/img/logos/DO_Logo_Horizontal_Blue.png",
     },
     {
         sponsorLink: "https://www.sashido.io/en/",
-        sponsorImg: "/swoc2.0/img/logos/sashido-logo-for sites.png",
+        sponsorImg: "/img/logos/sashido-logo-for sites.png",
     },
     {
         sponsorLink: "https://9ledgepro.com/",
-        sponsorImg: "/swoc2.0/img/logos/9ledge.jpeg",
+        sponsorImg: "/img/logos/9ledge.jpeg",
     },
 
 ]
@@ -183,27 +183,27 @@ export const Sponsors = [
 export const CommunityPartners = [
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/thecodingculture.jpeg",        
+        sponsorImg: "/img/logos/thecodingculture.jpeg",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/circlelogo (4).png",        
+        sponsorImg: "/img/logos/circlelogo (4).png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/tai.jpeg",        
+        sponsorImg: "/img/logos/tai.jpeg",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/dsc.jpeg",        
+        sponsorImg: "/img/logos/dsc.jpeg",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/machinaa_white.jpeg",        
+        sponsorImg: "/img/logos/machinaa_white.jpeg",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/swoc2.0/img/logos/cxc.jpeg",        
+        sponsorImg: "/img/logos/cxc.jpeg",        
     },
 
 ]

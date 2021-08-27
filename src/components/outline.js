@@ -132,7 +132,7 @@ class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="f-logo">
-                                        <img src={"/swoc2.0/img/46463_Script Foundation_Logo_RD_01.png"} alt="logo" className="logo-footer" />
+                                        <img src={"/img/46463_Script Foundation_Logo_RD_01.png"} alt="logo" className="logo-footer" />
                                     </div>
                                 </div>
                             </div>
