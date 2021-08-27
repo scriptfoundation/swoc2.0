@@ -46,7 +46,7 @@ class Index extends Component {
 
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div className = { this.state.width <= 1100 ? "main-nav win-resize" : "main-nav" }>
                     {/* <div className="nav-logo">
                         <a href="./index.html" className="scrollto"><img src="./img/logo-2.png"></a>
@@ -132,7 +132,7 @@ class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="f-logo">
-                                        <img src={"/img/46463_Script Foundation_Logo_RD_01.png"} alt="logo" className="logo-footer" />
+                                        <img src={"/swoc2.0/img/46463_Script Foundation_Logo_RD_01.png"} alt="logo" className="logo-footer" />
                                     </div>
                                 </div>
                             </div>

@@ -1,23 +1,23 @@
 export const navItems = [
     {
         title: "Home",
-        url: "/",
+        url: "/swoc2.0",
     },
     {
         title: "Projects",
-        url: "/project",
+        url: "/swoc2.0/project",
     },
     {
         title: "Sponsors",
-        url: "/#sponsors",
+        url: "/swoc2.0/#sponsors",
     },
     {
         title: "Our Team",
-        url: "/",
+        url: "/swoc2.0",
     },
     {
         title: "Contact Us",
-        url: "/#contact",
+        url: "/swoc2.0/#contact",
     },
 ]
 
