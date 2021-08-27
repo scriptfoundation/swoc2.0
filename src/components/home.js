@@ -220,7 +220,7 @@ class Home extends Component {
                     <a name="/#sponsors"></a>
                     <div className="body-content powered-conatiner">
                         <h3 className="">Powered by</h3>
-                        <img src={"/img/logos/Devfolio_Logo.svg"} />
+                        <a href="https://devfolio.co/" target="_blank"><img src={"/img/logos/Devfolio_Logo.svg"} /></a>
                     </div>
                     <div className="body-content sponsors-conatiner">
                         <h3 className="sponsors-title">Our Sponsors</h3>
