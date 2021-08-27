@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/swoc2.0/static/css/main.073c1d9c.chunk.css",
-    "main.js": "/swoc2.0/static/js/main.4df3cc99.chunk.js",
-    "main.js.map": "/swoc2.0/static/js/main.4df3cc99.chunk.js.map",
+    "main.js": "/swoc2.0/static/js/main.99fa8cae.chunk.js",
+    "main.js.map": "/swoc2.0/static/js/main.99fa8cae.chunk.js.map",
     "runtime-main.js": "/swoc2.0/static/js/runtime-main.365dad21.js",
     "runtime-main.js.map": "/swoc2.0/static/js/runtime-main.365dad21.js.map",
     "static/css/2.54c7b2aa.chunk.css": "/swoc2.0/static/css/2.54c7b2aa.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.54c7b2aa.chunk.css",
     "static/js/2.9515b2a9.chunk.js",
     "static/css/main.073c1d9c.chunk.css",
-    "static/js/main.4df3cc99.chunk.js"
+    "static/js/main.99fa8cae.chunk.js"
   ]
 }
