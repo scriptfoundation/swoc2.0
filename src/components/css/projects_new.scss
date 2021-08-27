@@ -245,7 +245,6 @@ p.header-paragraph {
 
 .md-card-right-desc {
     line-height: 25px;
-    margin-right: 15%;
     min-height: 75px;
     font-weight: 400;
     letter-spacing: .010em;
@@ -531,6 +530,18 @@ p.header-paragraph {
     }
     .p-header-vector {
         display: none;
+    }
+    .md-card {
+        flex-direction: column;
+    }
+    .md-card-side {
+        max-width: 100% !important;
+    }
+    .md-card-left {
+        order: 2;
+    }
+    .md-card-right-desc {
+        margin-right: 0;
     }
 }
 

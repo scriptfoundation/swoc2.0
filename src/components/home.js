@@ -140,6 +140,7 @@ class Home extends Component {
                                 <img src={"/img/logos/CatsInTech.png"} />
                             </div>
                         </div>
+                        <div className="stay-contributing">#StayContributing</div>
                     </div>
                 </section>
 

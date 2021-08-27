@@ -217,13 +217,12 @@
   padding: 40px 0 40px;
 
   h3 {
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 50px;
-    text-transform: uppercase;
-    word-spacing: 5px;
-    // text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration: underline;
   }
 }
 
@@ -260,6 +259,14 @@
   img {
     width: 100%;
   }
+}
+
+.stay-contributing {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: var(--logo-l2);
 }
 
 /*Timeline*/
@@ -505,16 +512,39 @@ time {
   box-shadow: none !important;
   color: #202124 !important;
   outline: none !important;
+
+  &:hover:enabled {
+    color: #fff !important;
+    background-color: var(--logo-l2) !important;
+  }
 }
 
-.cGKbZh:hover:enabled {
-  color: #fff !important;
-  background-color: var(--logo-l2) !important;
+//hosted 
+.fzDWsc {
+  z-index: 999;
+  background: #f1f2f3 !important;
+  cursor: default !important;
+  opacity: 0;
 }
+
+.fzCwXm {
+  z-index: 999;
+  opacity: 0.8 !important;
+  background: #f1f2f3 !important;
+  box-shadow: none !important;
+  color: #202124 !important;
+  outline: none !important;
+
+  &:hover:enabled {
+    color: #fff !important;
+    background-color: var(--logo-l2) !important;
+  }
+}
+
 
 // slider-container
 
-.dTGAUq {
+.rec-slider-container {
   overflow: initial !important;
 }
 
