@@ -161,44 +161,48 @@ class Project extends Component {
                         </div>
                     </div>
                     <div className={this.state.scrollStamp > 690 && "search-substitute"}></div>
-                    <div className="p-cards">
-                        <div className="p-grid">
-                            {this.state.projectList.filter(proj => {
-                                if (this.state.activeStack == "") {
-                                    return proj
-                                } else if (proj.Name.toLowerCase().includes(this.state.activeStack.toLowerCase())) {
-                                    return proj
-                                } else if (proj.TechStack.toString().toLowerCase().includes(this.state.activeStack.toLowerCase())) {
-                                    return proj
-                                }
-                            }).map((item, index) => {
-                            let randomColorIndex = Math.floor(Math.random() * this.state.randomColor.length);
+                    {this.state.projectList == projectsDataLatest ?
+                        <h1 style={{ "textAlign": "center", "textTransform": "uppercase", "color": "#081b24" }}>Coming Soon...</h1>
+                        :
+                        <div className="p-cards">
+                            <div className="p-grid">
+                                {this.state.projectList.filter(proj => {
+                                    if (this.state.activeStack == "") {
+                                        return proj
+                                    } else if (proj.Name.toLowerCase().includes(this.state.activeStack.toLowerCase())) {
+                                        return proj
+                                    } else if (proj.TechStack.toString().toLowerCase().includes(this.state.activeStack.toLowerCase())) {
+                                        return proj
+                                    }
+                                }).map((item, index) => {
+                                    let randomColorIndex = Math.floor(Math.random() * this.state.randomColor.length);
                             
-                            return (
-                            <div className="p-project" key={index}>
-                                <div className="p-project-info">
-                                    <div className="p-project-name"><a href={item.Repo} target="_blank" style={{"color": this.state.randomColor[randomColorIndex]}}>{ item.Name }</a></div>
-                                    <div className="p-project-desc">{ item.Description.length > 120 ? item.Description.substring(0, 120) + "..." : item.Description}</div>
-                                </div>
-                                <div className="p-project-labels-container">
-                                    {item.TechStack.map((stackItem, stackIndex) => {
-                                        return (<span className="p-project-label" onClick={() => {this.setState({ activeStack: stackItem })}}>{stackItem}</span>)
-                                    })}    
-                                </div>
-                                <div className="p-modal-link">
-                                        <button onClick={() => {
-                                            this.setState({ modalDisplay: "flex" });
-                                            document.body.style.overflow = "hidden";
-                                            this.setState({ modalData: item });
-                                        }}>
-                                        See More<i className="fa fa-angle-right"></i>
-                                    </button>
-                                </div>
+                                    return (
+                                        <div className="p-project" key={index}>
+                                            <div className="p-project-info">
+                                                <div className="p-project-name"><a href={item.Repo} target="_blank" style={{ "color": this.state.randomColor[randomColorIndex] }}>{item.Name}</a></div>
+                                                <div className="p-project-desc">{item.Description.length > 120 ? item.Description.substring(0, 120) + "..." : item.Description}</div>
+                                            </div>
+                                            <div className="p-project-labels-container">
+                                                {item.TechStack.map((stackItem, stackIndex) => {
+                                                    return (<span className="p-project-label" onClick={() => { this.setState({ activeStack: stackItem }) }}>{stackItem}</span>)
+                                                })}
+                                            </div>
+                                            <div className="p-modal-link">
+                                                <button onClick={() => {
+                                                    this.setState({ modalDisplay: "flex" });
+                                                    document.body.style.overflow = "hidden";
+                                                    this.setState({ modalData: item });
+                                                }}>
+                                                    See More<i className="fa fa-angle-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    )
+                                })}
                             </div>
-                            )
-                            })}
                         </div>
-                    </div>
+                    }
                 </section>
                 <div className="p-bottom-bar"></div>
             </>
