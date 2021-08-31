@@ -295,7 +295,7 @@ class Home extends Component {
                             <div className="btn-container p-4" style={{ "text-align": "center" }}>
                             <br />
                             <a
-                                href="https://drive.google.com/file/d/1po-yevUP5dweJiNdvuiEhsi_IyKlOub8/view?usp=sharing"
+                                href="https://drive.google.com/file/d/1eZxqQoK28EmpMSwWlHiP-Axra-YRnVWA/view?usp=sharing"
                                 target="_blank"
                                 className="btn btn-info btn-lg"
                                 >Sponsor Us
