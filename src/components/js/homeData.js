@@ -113,6 +113,10 @@ export const GoldSponsors = [
         sponsorImg: "/img/logos/Tezos_Logo.svg",
     },
     {
+        sponsorLink: "https://filecoin.io/",
+        sponsorImg: "/img/logos/Filecoin_Logo.svg",
+    },
+    {
         sponsorLink: "https://celo.org/",
         sponsorImg: "/img/logos/Celo_Logo.svg",
     },
