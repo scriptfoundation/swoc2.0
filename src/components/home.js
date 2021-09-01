@@ -105,21 +105,23 @@ class Home extends Component {
                                 <div className="col-md-4 card-cover">
                                     <div className="h-100 to-apply-card card__card__body">
                                         <h5 className="card-title">{item.cardTitle}</h5>
-                                        <p className="card-text">{ item.cardText }</p>
-                                        <div className="btn-apply">
+                                        <p className="card-text">{ item.cardText }</p>                                        
                                             { item.cardTitle.toLowerCase() == "participant" ?
-                                            <div 
-                                                class="apply-button"
-                                                data-hackathon-slug="swoc"
-                                                data-button-theme="light"
-                                            ></div>
+                                            <div className="btn-apply devfolio-btn">
+                                                <div 
+                                                    class="apply-button"
+                                                    data-hackathon-slug="swoc"
+                                                    data-button-theme="light"
+                                                    ></div>
+                                            </div>
                                             :
-                                            <button href={item.applyLink} target="_blank"
-                                                className={item.applyStatus == "Apply" ? "" : "disabled"}
-                                                readonly>{item.applyStatus}
-                                            </button>
+                                            <div className="btn-apply">
+                                                <button href={item.applyLink} target="_blank"
+                                                    className={item.applyStatus == "Apply" ? "" : "disabled"}
+                                                    readonly>{item.applyStatus}
+                                                </button>
+                                            </div>
                                             }
-                                        </div>
                                     </div>
                                 </div>
                             )
