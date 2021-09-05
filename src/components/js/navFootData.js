@@ -17,7 +17,7 @@ export const navItems = [
     },
     {
         title: "Contact Us",
-        url: "/#/#contact",
+        url: "mailto:abhishek@anyonecanco.de",
     },
 ]
 

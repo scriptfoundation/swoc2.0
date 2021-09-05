@@ -32,6 +32,10 @@ class Index extends Component {
         document.documentElement.scrollTop = 0;
     }
 
+    backToBottom() {
+        window.scrollTo(0,document.body.scrollHeight);
+    }    
+
     handleResize = (e) => {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
     };
@@ -139,15 +143,15 @@ class Index extends Component {
                                     <div className="f-contact">
                                         <div className="f-nav">
                                             <ul>
-                                                <li><a href="/">Home</a></li>
-                                                <li><a href="/#/#about">About Us</a></li>
-                                                <li><a href="/">Our Team</a></li>
-                                                <li><a href="/#/#sponsors">Sponsors</a></li>
+                                                <li><a href="/" onClick={this.changeActivePage}>Home</a></li>
+                                                <li><a href="/#/#about" onClick={this.changeActivePage}>About Us</a></li>
+                                                <li><a href="/" onClick={this.changeActivePage}>Our Team</a></li>
+                                                <li><a href="/#/#sponsors" onClick={this.changeActivePage}>Sponsors</a></li>
                                             </ul>
                                             <ul className="f-nav-ul">
-                                                <li><a href="/#/project">Projects</a></li>
-                                                <li><a href="/#/#timeline">Timeline</a></li>
-                                                <li><a target="_blank" href="https://devfolio.co/code-of-conduct#:~:text=No%20discrimination,gender%20identity%20and%20expression">Conduct</a></li>
+                                                <li><a href="/#/project" onClick={this.changeActivePage}>Projects</a></li>
+                                                <li><a href="/#/#timeline" onClick={this.changeActivePage}>Timeline</a></li>
+                                                <li><a target="_blank" href="https://devfolio.co/code-of-conduct#:~:text=No%20discrimination,gender%20identity%20and%20expression">Code of Conduct</a></li>
                                             </ul>
                                         </div>
                                         <div className="footer-copyright-info">

@@ -55,13 +55,13 @@ class Team extends Component {
                                         this.setState({ teamList: currentTeam})
                                         window.location.href = "/#/project/#projs"
                                     }}>
-                                    2021 Projects
+                                    2021 Team
                                 </button>
                                 <button className="p-projs2020" type="button" onClick={() => {
                                         this.setState({ teamList: pastTeam })
                                         window.location.href = "/#/project/#projs"
                                     }}>
-                                    2020 Projects
+                                    2020 Team
                                 </button>
                             </div>
                         </div>
