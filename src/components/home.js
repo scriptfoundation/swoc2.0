@@ -116,10 +116,10 @@ class Home extends Component {
                                             </div>
                                             :
                                             <div className="btn-apply">
-                                                <button href={item.applyLink} target="_blank"
-                                                    className={item.applyStatus == "Apply" ? "" : "disabled"}
+                                                <a href={item.applyLink} target="_blank"
+                                                    className={item.applyStatus.toLowerCase() == "register" ? "" : "disabled"}
                                                     readonly>{item.applyStatus}
-                                                </button>
+                                                </a>
                                             </div>
                                             }
                                     </div>

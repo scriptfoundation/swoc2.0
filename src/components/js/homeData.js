@@ -5,8 +5,8 @@ export const registerItems = [
         mentor budding open-source enthusiasts from all different 
         backgrounds. Find students and professionals that share your 
         vision.`,
-        applyLink: "",
-        applyStatus:"Registration Closed",
+        applyLink: "https://jaisadana673401.typeform.com/to/DBGaoa6s",
+        applyStatus:"Register",
     },
     {
         cardTitle: "Participant",
@@ -14,7 +14,7 @@ export const registerItems = [
         space for everyone. Apply now to become a part of something 
         exciting!`,
         applyLink: "",
-        applyStatus:"Registration Closed",
+        applyStatus:"Applications open soon",
     },
     {
         cardTitle: "Mentor",
@@ -23,7 +23,7 @@ export const registerItems = [
         one team with your insights and experience all through their 
         hackathon journey.`,
         applyLink: "",
-        applyStatus:"Registration Closed",
+        applyStatus:"Applications open soon",
     },
 ]
 

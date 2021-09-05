@@ -193,7 +193,7 @@
   margin-top: auto;
   margin-bottom: 10px;
 
-  button {
+  a {
     border: none;
     outline: none;
     border: none;
@@ -204,6 +204,8 @@
     // font-family: "Poppins";
     width: 100%;
     font-size: 18px;
+    background: #3770ff;
+    text-align: center;
   }
 }
 
@@ -224,9 +226,9 @@
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     text-transform: capitalize;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 }
 
@@ -284,8 +286,8 @@
   h3 {
     color: var(--winter-w2);
     font-weight: 400;
-    font-size: 36px;
-    text-decoration: underline;
+    font-size: 40px;
+    // text-decoration: underline;
   }
 }
 
@@ -488,7 +490,7 @@ time {
 }
 
 .overview-vector {
-  width: 300px;
+  width: 340px;
 
   img {
     width: 100%;
@@ -670,7 +672,7 @@ time {
   font-size: 18px;
   line-height: 28px;
   width: 100%;
-  font-family: "Poppins";
+  // font-family: "Poppins";
   font-weight: 400;
   cursor: pointer;
   padding: 32px 0;
@@ -794,6 +796,13 @@ time {
       padding: 0 3rem;
     }
   }
+  .overview-vector {
+    display: none;
+  }
+  .overview-content {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -832,13 +841,6 @@ time {
   }
   .timeline-head h3 {
     font-size: 2.5rem;
-  }
-  .overview-vector {
-    display: none;
-  }
-  .overview-content {
-    width: 100%;
-    padding: 0 20px;
   }
   .sponsor-img {
     transform: translate(0, -50%) scale(0.7);
@@ -967,6 +969,7 @@ time {
   }
   .event-together h3 {
     font-size: 30px;
+    margin-bottom: 50px;
     text-decoration: none;
   }
   .timeline-head {

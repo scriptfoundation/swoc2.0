@@ -121,7 +121,7 @@ class Index extends Component {
                                             <ul className="f-nav-ul">
                                                 <li><a href="/#/project">Projects</a></li>
                                                 <li><a href="/#/#timeline">Timeline</a></li>
-                                                <li><a href="mailto:support@www.swoc.tech">Help</a></li>
+                                                <li><a target="_blank" href="https://devfolio.co/code-of-conduct#:~:text=No%20discrimination,gender%20identity%20and%20expression">Conduct</a></li>
                                             </ul>
                                         </div>
                                         <div className="footer-copyright-info">
