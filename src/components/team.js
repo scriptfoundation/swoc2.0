@@ -28,6 +28,25 @@ class Team extends Component {
     render() {
         return (
             <>
+                <span hidden="true" id="page-name">Team</span>
+
+                {/* header */}
+
+                <header className="team-header">
+                    <div className="t-header-box">
+                        <div className="t-header row">
+                            <div className="t-header-content">
+                                <h1>Our Team</h1>
+                                <p className="header-paragraph">Meet the brains behind the ideation,developemnt and execution of Script Winter of Code.</p>                                
+                            </div>
+                            <div className="t-header-vector">
+                                <div className="t-vector">
+                                    <a href="./index.html"><img src={"/img/team.svg"} /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
             </>
          );
     }

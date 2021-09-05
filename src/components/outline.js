@@ -23,14 +23,27 @@ class Index extends Component {
         this.state = {
             width: window.innerWidth,
             height: window.innerHeight,
+            transform : 0,
         };
+    }
+
+    backToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     }
 
     handleResize = (e) => {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
     };
 
+    handleScroll = (e) => {
+        this.setState({
+            transform: window.pageYOffset,
+        });
+    }
+
     componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
         window.addEventListener("resize", this.handleResize);
         Aos.init({
             duration: 500,
@@ -47,10 +60,11 @@ class Index extends Component {
     render() {
         return (
             <Router basename={process.env.PUBLIC_URL}>
-                <div className = { this.state.width <= 1100 ? "main-nav win-resize" : "main-nav" }>
-                    {/* <div className="nav-logo">
-                        <a href="./index.html" className="scrollto"><img src="./img/logo-2.png"></a>
-                    </div> */}
+                <div className={
+                    (this.state.transform > 50 && "nav-scrolled")
+                    + " " +
+                    (this.state.width <= 1100 ? "main-nav win-resize" : "main-nav")
+                }>
                     <nav id="nav__nav" style={{ "padding-right": "1.8rem" }}>
                         {this.state.width <= 1100 ?
                         <>
@@ -69,8 +83,14 @@ class Index extends Component {
                         </>
                         :
                         <>
-                        <div id="addNavLogo"></div>
-                        <div className="nav-comps">
+                        <div id="addNavLogo">
+                            {this.state.transform > 400 &&
+                                <div class="nav-logo">
+                                    <a href="/" class="scrollto"><img src="./img/logo-2-no-label.png" /></a>
+                                </div>        
+                            }
+                        </div>
+                        <div className={ this.state.transform > 400 ? "nav-comps comp-scrolled" : "nav-comps"}>
                             <ul>
                                 {navItems.map((item, index) => {
                                     return (
@@ -104,7 +124,7 @@ class Index extends Component {
                         <a name="/#contact"></a>
                         <div className="footer-content">
                             <div class="footer-top">
-                                <button className="back-to-top" type="button" onClick={() => {window.location.href = "#"}}>
+                                <button className="back-to-top" type="button" onClick={this.backToTop}>
                                     Back to the top <i class="fa fa-angle-up"></i>
                                 </button>
                             </div>
