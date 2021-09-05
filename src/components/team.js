@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import './css/team.scss'
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+import { currentTeam } from './js/2021team';
+import { pastTeam } from './js/2020team';
 
 class Team extends Component {
     constructor(props) {
@@ -15,9 +15,6 @@ class Team extends Component {
 
     componentDidMount() {
         window.addEventListener("resize", this.handleResize);
-        Aos.init({
-            duration: 500,
-        });
     }
 
     componentWillUnmount() {
@@ -33,20 +30,43 @@ class Team extends Component {
                 {/* header */}
 
                 <header className="team-header">
-                    <div className="t-header-box">
-                        <div className="t-header row">
-                            <div className="t-header-content">
+                    <div className="p-header-box">
+                        <div className="p-header row">
+                            <div className="p-header-content">
                                 <h1>Our Team</h1>
                                 <p className="header-paragraph">Meet the brains behind the ideation,developemnt and execution of Script Winter of Code.</p>                                
                             </div>
-                            <div className="t-header-vector">
-                                <div className="t-vector">
+                            <div className="p-header-vector">
+                                <div className="p-vector">
                                     <a href="./index.html"><img src={"/img/team.svg"} /></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </header>
+
+                {/* team */}
+
+                <section className="team-body">
+                    <div className={this.state.scrollStamp > 690 ? "p-search-section search-scrolled" : "p-search-section" }>
+                        <div className="p-search">
+                            <div className="p-prev-projs">
+                                <button className="p-projs2021" type="button" onClick={() => {
+                                        this.setState({ teamList: currentTeam})
+                                        window.location.href = "/#/project/#projs"
+                                    }}>
+                                    2021 Projects
+                                </button>
+                                <button className="p-projs2020" type="button" onClick={() => {
+                                        this.setState({ teamList: pastTeam })
+                                        window.location.href = "/#/project/#projs"
+                                    }}>
+                                    2020 Projects
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </>
          );
     }

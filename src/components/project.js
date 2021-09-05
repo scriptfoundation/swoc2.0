@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import './css/projects_new.scss'
-import { projectsDataLatest } from './js/2021projects';
-import { projectsDataPrevOne } from './js/2020projects';
+import { currentProjects } from './js/2021projects';
+import { pastProjects } from './js/2020projects';
 import Particles from 'react-particles-js';
 import { Snow } from './snow'
 import Aos from 'aos';
@@ -14,13 +14,13 @@ class Project extends Component {
         this.state = {
             width: window.innerWidth,
             height: window.innerHeight,
-            projectList: projectsDataLatest,
+            projectList: currentProjects,
             randomColor: ["#fff"],
             activeStack: "",
             scrollStamp: 0,
             modalDisplay: "none",
             bodyOverflow: "initial",
-            modalData: projectsDataLatest[0],
+            modalData: currentProjects[0],
         };
     }
 
@@ -144,14 +144,14 @@ class Project extends Component {
                             </div>
                             <div className="p-prev-projs">
                                 <button className="p-projs2021" type="button" onClick={() => {
-                                        this.setState({ projectList: projectsDataLatest, activeStack: "" })
+                                        this.setState({ projectList: currentProjects, activeStack: "" })
                                         window.location.href = "/#/project/#projs"
                                     }}>
                                     2021 Projects
                                     {/* <i className="fa fa-angle-right"></i> */}
                                 </button>
                                 <button className="p-projs2020" type="button" onClick={() => {
-                                        this.setState({ projectList: projectsDataPrevOne, activeStack: "" })
+                                        this.setState({ projectList: pastProjects, activeStack: "" })
                                         window.location.href = "/#/project/#projs"
                                     }}>
                                     2020 Projects
@@ -161,7 +161,7 @@ class Project extends Component {
                         </div>
                     </div>
                     <div className={this.state.scrollStamp > 690 && "search-substitute"}></div>
-                    {this.state.projectList == projectsDataLatest ?
+                    {this.state.projectList == currentProjects ?
                         <h1 style={{ "textAlign": "center", "textTransform": "uppercase", "color": "#081b24" }}>Coming Soon...</h1>
                         :
                         <div className="p-cards">

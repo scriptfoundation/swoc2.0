@@ -1,4 +1,4 @@
-export const projectsDataLatest = [
+export const currentProjects = [
 
   {
     Name: 'Internship Onboarding Platform',

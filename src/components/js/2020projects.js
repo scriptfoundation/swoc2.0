@@ -1,4 +1,4 @@
-export const projectsDataPrevOne = [
+export const pastProjects = [
   {
     Name: 'CircuitVerse',
     Repo: 'https://github.com/CircuitVerse/CircuitVerse',

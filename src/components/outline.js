@@ -42,14 +42,20 @@ class Index extends Component {
         });
     }
 
+    changeActivePage = () => {
+        setTimeout(() => {
+            let currentPage = document.getElementById("page-name").textContent.toLowerCase();
+            this.setState({ page: currentPage });
+        }, 100)
+    }
+
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
         window.addEventListener("resize", this.handleResize);
         Aos.init({
             duration: 500,
         });
-        let currentPage = document.getElementById("page-name").textContent.toLowerCase();
-        this.setState({ page: currentPage });
+        this.changeActivePage();
     }
 
     componentWillUnmount() {
@@ -94,7 +100,7 @@ class Index extends Component {
                             <ul>
                                 {navItems.map((item, index) => {
                                     return (
-                                        <li key={index} className={ item.title.toLowerCase() == this.state.page && "nav-active" }><a href={item.url}>{item.title}</a></li>
+                                        <li key={index} className={ item.title.toLowerCase() == this.state.page && "nav-active" }><a href={item.url} onClick={this.changeActivePage}>{item.title}</a></li>
                                 )
                                 })}
                             </ul>
