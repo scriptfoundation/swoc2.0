@@ -68,33 +68,60 @@ export const timelineItems = [
 
 export const prizeItems = [
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
+        prizeTitle: "Top 3 Contributors",
+        prizeDescription: `Exciting Opportunity & Prizes by Replit, Script Foundation & GFG, Digital Ocean, etc.`,
+        prizeVector: "/img/prize2.svg",
     },
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
+        prizeTitle: "Special Prizes",
+        provider: "Tezos",
+        prizeDescription: `₹20,000 for best Dapp built on Tezos, | 
+        ₹25,000 for building a Flutter Tezos Wallet App, | 
+        Continuity grant opportunity up to $5,000 for outstanding projects.`,
+        prizeVector: "/img/logos/Tezos_Logo.svg",
+        more: "Learn more about the Tezos Track Prize.",
+        prizeLink: "https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff",
     },
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
+        prizeTitle: "Special Prizes",
+        provider: "Celo",
+        prizeDescription: `₹20,000 for best Dapp built on Celo, |
+        Continuity Support.`,
+        prizeVector: "/img/logos/Celo_Logo.svg",
+        more: "Learn more about the Celo Track Prize.",
+        prizeLink: "https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0",
     },
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
+        prizeTitle: "Special Prizes",
+        provider: "Polygon",
+        prizeDescription: `₹10,000 for the best hack built on Ethereum, or |
+        ₹15,000 for the best hack built on Ethereum + Polygon, |
+        Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!`,
+        prizeVector: "/img/logos/Polygon_Logo.svg",
+        more: "Learn more about the Polygon Track Prize.",
+        prizeLink: "https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c",
     },
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
-        prizeVector: "/img/logos/Devfolio_Logo.svg",
+        prizeTitle: "Special Prizes",
+        provider: "Filecoin",
+        prizeDescription: `₹20000 for best use of IPFS and/or Filecoin`,
+        prizeVector: "/img/logos/Filecoin_Logo.svg",
+        more: "Learn more about the Filecoin Track Prize here.",
+        prizeLink: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203",
     },
     {
-        prizeTitle: "Top contributors",
-        prizeDescription: `Top contributors and even participants with successful contribution get exciting perks and opportunities.`,
+        prizeTitle: "Contributor Of The Year",
+        prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
+        prizeVector: "/img/logos/Github_Logo.svg",
+    },
+    {
+        prizeTitle: "Top 4 contributors",
+        prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
+        prizeVector: "/img/logos/Github_Logo.svg",
+    },
+    {
+        prizeTitle: "Participants Digital",
+        prizeDescription: `Freebies From XYZ Domains,Replit & Script Foundation.`,
         prizeVector: "/img/logos/Devfolio_Logo.svg",
     },
 ]
@@ -130,58 +157,17 @@ export const PlatformPartners = [
 
 export const Sponsors = [
     {
-        sponsorLink: "https://codingblocks.com/",
-        sponsorImg: "/img/logos/cb-min.png",
-    },
-    {
-        sponsorLink: "https://dockship.io/",
-        sponsorImg: "/img/logos/dockship-min.png",
-    },
-    {
-        sponsorLink: "https://givemycertificate.com/",
-        sponsorImg: "/img/logos/gitvemycertifiacte-min.png",
-    },
-    {
-        sponsorLink: "https://hackclub.com/bank/",
-        sponsorImg: "/img/logos/hackclub-min.png",
-    },
-    {
-        sponsorLink: "https://1password.com/",
-        sponsorImg: "/img/logos/1password-min.png",
-    },
-    {
-        sponsorLink: "https://balsamiq.com/",
-        sponsorImg: "/img/logos/balsamiq-logo-noborder-print-min.png",
-    },
-    {
-        sponsorLink: "https://repl.it/",
-        sponsorImg: "/img/logos/replit-min.png",
-    },
-    {
-        sponsorLink: "http://rosenfeldmedia.com/",
-        sponsorImg: "/img/logos/Rosenfeld-min.png",
-    },
-    {
-        sponsorLink: "https://www.jetbrains.com/",
-        sponsorImg: "/img/logos/jetbrains-min.png",
-    },
-    {
-        sponsorLink: "https://www.axure.com/",
-        sponsorImg: "/img/logos/axure.png",
+        sponsorLink: "https://www.taskade.com/",
+        sponsorImg: "/img/logos/Taskade_Logo.svg",
     },
     {
         sponsorLink: "https://www.digitalocean.com/",
-        sponsorImg: "/img/logos/DO_Logo_Horizontal_Blue.png",
+        sponsorImg: "/img/logos/DO_Logo.svg",
     },
     {
-        sponsorLink: "https://www.sashido.io/en/",
-        sponsorImg: "/img/logos/sashido-logo-for sites.png",
+        sponsorLink: "https://streamyard.com/",
+        sponsorImg: "/img/logos/Streamyard_Logo.svg",
     },
-    {
-        sponsorLink: "https://9ledgepro.com/",
-        sponsorImg: "/img/logos/9ledge.jpeg",
-    },
-
 ]
 
 export const CommunityPartners = [

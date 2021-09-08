@@ -47,7 +47,7 @@ class Home extends Component {
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2 },
         { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4, itemsToScroll: 1  }
+        { width: 1200, itemsToShow: 3, itemsToScroll: 1  }
     ];
 
     render() {
@@ -200,11 +200,21 @@ class Home extends Component {
                                     return (
                                         <div className="prize-card card__card__body">
                                             <div className="prize-card-img">
-                                                <img src={item.prizeVector} />
+                                                <img src={item.prizeVector} />                                                
                                             </div>
                                             <div className="prize-card-text">
-                                                <h3 className="card-title">{item.prizeTitle}</h3>
-                                                <p className="card-text">{item.prizeDescription}</p>
+                                                <h3 className="card-title">
+                                                    {item.prizeTitle}
+                                                    {item.provider && <><br /><span class="provider">{item.provider}</span></>}
+                                                </h3>
+                                                <ul>
+                                                    {item.prizeDescription.split('|').map((el) => {
+                                                        return (
+                                                            <li><p className="card-text">{el}</p></li>
+                                                        )
+                                                    })}
+                                                </ul>
+                                                {item.more && <a target="_blank" href={item.prizeLink} className="learn-more">{item.more}</a>}
                                             </div>
                                         </div>
                                     )
@@ -268,7 +278,8 @@ class Home extends Component {
 
                             </div>
 
-                            {/* <h3>Sponsors</h3>
+                            <h3>Sponsors</h3>
+                            <br />
                             <div className="row row-img grid mb-4">
                                 {Sponsors.map((item, index) => {
                                 return (
@@ -279,7 +290,7 @@ class Home extends Component {
                                     </div>                                              
                                 )
                                 })}
-                            </div> */}
+                            </div>
 
                             {/* <h3>Community Partners</h3>
                             <div className="row row-img grid mb-4">
