@@ -112,12 +112,12 @@ export const prizeItems = [
     {
         prizeTitle: "Contributor Of The Year",
         prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
-        prizeVector: "/img/logos/Github_Logo.svg",
+        prizeVector: "/img/logos/GitHub_Logo.svg",
     },
     {
         prizeTitle: "Top 4 contributors",
         prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
-        prizeVector: "/img/logos/Github_Logo.svg",
+        prizeVector: "/img/logos/GitHub_Logo.svg",
     },
     {
         prizeTitle: "Participants Digital",
