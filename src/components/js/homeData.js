@@ -155,6 +155,13 @@ export const PlatformPartners = [
     }
 ]
 
+export const SilverSponsors = [
+    {
+        sponsorLink: "https://www.linkedin.com/company/internship-training/",
+        sponsorImg: "/img/logos/I&T_Logo.jpeg",
+    },    
+]
+
 export const Sponsors = [
     {
         sponsorLink: "https://www.taskade.com/",

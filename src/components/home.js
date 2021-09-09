@@ -7,6 +7,7 @@ import {
     timelineItems,
     prizeItems,
     GoldSponsors,
+    SilverSponsors,
     PlatformPartners,
     Sponsors,
     CommunityPartners,
@@ -276,6 +277,19 @@ class Home extends Component {
                                     </div>
                                 </div> */}
 
+                            </div>
+
+                            <h3>Silver Sponsors</h3>
+                            <div className="row row-img grid mb-4 justify-content-center">
+                                {SilverSponsors.map((item, index) => {
+                                return (
+                                    <div className="col-md-4 img-div">
+                                        <a href={item.sponsorLink} target="_blank">
+                                            <img className="sponsor-img" src={item.sponsorImg} />
+                                        </a>
+                                    </div>                                              
+                                )
+                                })}
                             </div>
 
                             <h3>Sponsors</h3>
