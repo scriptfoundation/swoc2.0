@@ -22,8 +22,8 @@ export const registerItems = [
         beacon of light for our participants! As a mentor, you will guide 
         one team with your insights and experience all through their 
         hackathon journey.`,
-        applyLink: "",
-        applyStatus:"Applications open soon",
+        applyLink: "https://jaisadana673401.typeform.com/to/p8Q0UJ51",
+        applyStatus:"Register",
     },
 ]
 

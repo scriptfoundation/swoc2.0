@@ -103,7 +103,7 @@ class Home extends Component {
                         <div className="row">
                             {registerItems.map((item, index) => {
                             return (
-                                <div className="col-md-4 card-cover">
+                                <div className="col-sm-12 col-md-6 col-lg-6 col-xl-4 card-cover">
                                     <div className="h-100 to-apply-card card__card__body">
                                         <h5 className="card-title">{item.cardTitle}</h5>
                                         <p className="card-text">{ item.cardText }</p>                                        
