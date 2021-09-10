@@ -20,6 +20,134 @@
   min-height: 450px;
 }
 
+// team
+
+.team-body {
+  background: var(--winter-w1);
+}
+
+.p-search-section.team {
+  // margin-bottom: 40px;
+}
+
+.t-cards {
+  background: var(--winter-w2);
+}
+
+.t-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  justify-content: center;
+  align-items: stretch;
+  grid-gap: 30px 30px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 10px 40px;
+
+  h1 {
+    font-family: "Roboto" !important;
+    font-size: 26px !important;
+    font-weight: 300 !important;
+    text-shadow: 2px 2px 4px #000 !important;
+    margin: 0 !important;
+  }
+}
+
+._A9yOf {
+  padding: 20px 80px !important;
+}
+
+._2NQ6L:hover ._xsi02 {
+  box-shadow: rgba(255, 255, 255, 0.6) 0 0 10px 1px, white 0 0 0 1px, black 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px !important;
+}
+
+._xsi02 {
+  width: 290px !important;
+  height: 330px !important;
+  border-radius: 0 !important;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px !important;
+}
+
+._wcf8- {
+  box-sizing: unset;
+  // padding: 22px;
+  opacity: 0.8 !important;
+}
+
+._jk5LF {
+  *{
+    display: block;
+  }
+  &:after {
+    background-image: none !important;
+  }
+}
+
+.t-grid .member {
+  position: relative;
+  color: var(--winter-w2);
+  margin: 0;
+  transition: all 0.35s cubic-bezier(0.14, 0.51, 0, 1);
+  display: flex;
+  flex-direction: column;
+  
+  picture {
+    width: 100%;
+    max-height: 350px;
+    overflow: hidden;
+    padding: 5px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.member-info {
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: var(--winter-w1);
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    a {
+      padding: 11px 14px;
+      background: #fff;
+      margin-right: 10px;
+      color: var(--winter-w2);
+      text-decoration: none;
+      text-shadow: none;
+      font-size: 19px;
+
+      // &.fa-github {
+      //   color: #000;
+      // }
+      // &.fa-linkedin {
+      //   color: #0077b5;
+      // }
+      // &.fa-twitter {
+      //   color: #1DA1F2;
+      // }
+    }
+  }
+}
+
+.t-bottom-bar {
+    height: 35px;
+    width: 100%;
+    background: var(--winter-w1);
+}
+
 // Responsive
 
 @media only screen and (max-width: 1100px) {

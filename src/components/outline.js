@@ -145,7 +145,7 @@ class Index extends Component {
                                             <ul>
                                                 <li><a href="/" onClick={this.changeActivePage}>Home</a></li>
                                                 <li><a href="/#/#about" onClick={this.changeActivePage}>About Us</a></li>
-                                                <li><a href="/" onClick={this.changeActivePage}>Our Team</a></li>
+                                                <li><a href="/#/team" onClick={this.changeActivePage}>Our Team</a></li>
                                                 <li><a href="/#/#sponsors" onClick={this.changeActivePage}>Sponsors</a></li>
                                             </ul>
                                             <ul className="f-nav-ul">
