@@ -115,7 +115,7 @@ export const prizeItems = [
         prizeVector: "/img/logos/GitHub_Logo.svg",
     },
     {
-        prizeTitle: "Top 4 contributors",
+        prizeTitle: "Top 3 contributors",
         prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
         prizeVector: "/img/logos/GitHub_Logo.svg",
     },
