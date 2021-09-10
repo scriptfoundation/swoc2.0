@@ -156,6 +156,10 @@ export const pastTeam = [
         link: 'https://github.com/Kashish-max',
         icon: 'fa fa-github',
       },
+      {
+        link: 'https://kashishgoyal.ml',
+        icon: 'fa fa-globe',
+      },
     ]
   },
 
