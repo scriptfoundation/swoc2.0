@@ -147,6 +147,10 @@ export const GoldSponsors = [
         sponsorLink: "https://celo.org/",
         sponsorImg: "/img/logos/Celo_Logo.svg",
     },
+    {
+        sponsorLink: "https://karoverify.xyz/",
+        sponsorImg: "/img/logos/KaroVerify_Logo.svg",
+    },
 ]
 export const PlatformPartners = [
     {
@@ -175,6 +179,14 @@ export const Sponsors = [
         sponsorLink: "https://streamyard.com/",
         sponsorImg: "/img/logos/Streamyard_Logo.svg",
     },
+    {
+        sponsorLink: "https://replit.com/",
+        sponsorImg: "/img/logos/replit.png",
+    },
+    {
+        sponsorLink: "https://gen.xyz/",
+        sponsorImg: "/img/logos/xyz.png",
+    }
 ]
 
 export const CommunityPartners = [
