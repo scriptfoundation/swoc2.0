@@ -72,6 +72,18 @@ export const currentTeam = [
   },
 
   {
+    name: 'Praveen Kumar',
+    position: 'Web Developer',
+    image: 'img/Team/PraveenTechBG.png',
+    profiles: [
+      {
+        link: 'https://www.linkedin.com/in/praveentech',
+        icon: 'fa fa-linkedin',
+      },
+    ]
+  },
+
+  {
     name: 'Chetna Grover',
     position: 'Graphics Designer',
     image: 'img/Team/Chetna.jpg',
@@ -95,6 +107,22 @@ export const currentTeam = [
       {
         link: 'https://www.linkedin.com/in/adilshehzad7',
         icon: 'fa fa-linkedin',
+      },
+    ]
+  },
+
+  {
+    name: 'Priyanka Mishra',
+    position: 'Management Team member',
+    image: 'img/Team/priyanka.png',
+    profiles: [
+      {
+        link: 'https://www.linkedin.com/in/priyanka-mishra-programmer/',
+        icon: 'fa fa-linkedin',
+      },
+      {
+        link: 'https://www.instagram.com/i.priyankamishra/',
+        icon: 'fa fa-instagram',
       },
     ]
   },
