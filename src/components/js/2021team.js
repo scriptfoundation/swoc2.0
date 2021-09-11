@@ -53,7 +53,7 @@ export const currentTeam = [
 
   {
     name: 'Kashish Goyal',
-    position: 'Web Developer',
+    position: 'Lead Web Developer',
     image: 'img/Team/kashish_goyal.jpg',
     profiles: [
       {
@@ -73,7 +73,7 @@ export const currentTeam = [
 
   {
     name: 'Praveen Kumar',
-    position: 'Web Developer',
+    position: 'CWOC Lead',
     image: 'img/Team/PraveenTechBG.png',
     profiles: [
       {
