@@ -191,19 +191,19 @@ export const Sponsors = [
 
 export const CommunityPartners = [
     {
-        sponsorLink: "",
+        sponsorLink: "https://gdsc.community.dev/guru-nanak-dev-university-amritsar/",
         sponsorImg: "/img/logos/GDSC GNDU Center Logo.png",        
     },
     {
-        sponsorLink: "",
+        sponsorLink: "https://www.codedazzlers.xyz/",
         sponsorImg: "/img/logos/codedazzlers.png",        
     },
     {
-        sponsorLink: "",
+        sponsorLink: "https://gdsc.community.dev/lakshmi-narain-college-of-technology-bhopal/",
         sponsorImg: "/img/logos/GDSC Logo chapter lockup centered template.png",        
     },
     {
-        sponsorLink: "",
+        sponsorLink: "https://www.linkedin.com/company/techsahead/",
         sponsorImg: "/img/logos/Techsahead_Logo.png",        
     },
     {
@@ -211,7 +211,7 @@ export const CommunityPartners = [
         sponsorImg: "/img/logos/Opentek_black_Logo.png",        
     },
     {
-        sponsorLink: "",
+        sponsorLink: "https://semikolan.co/",
         sponsorImg: "/img/logos/BANNER_YT-05.png",        
     },
 ]
