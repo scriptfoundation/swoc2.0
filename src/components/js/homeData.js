@@ -192,29 +192,28 @@ export const Sponsors = [
 export const CommunityPartners = [
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/thecodingculture.jpeg",        
+        sponsorImg: "/img/logos/GDSC GNDU Center Logo.png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/circlelogo (4).png",        
+        sponsorImg: "/img/logos/codedazzlers.png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/tai.jpeg",        
+        sponsorImg: "/img/logos/GDSC Logo chapter lockup centered template.png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/dsc.jpeg",        
+        sponsorImg: "/img/logos/Techsahead_Logo.png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/machinaa_white.jpeg",        
+        sponsorImg: "/img/logos/Opentek_black_Logo.png",        
     },
     {
         sponsorLink: "",
-        sponsorImg: "/img/logos/cxc.jpeg",        
+        sponsorImg: "/img/logos/BANNER_YT-05.png",        
     },
-
 ]
 
 export const FAQs = [

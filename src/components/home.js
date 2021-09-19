@@ -306,7 +306,7 @@ class Home extends Component {
                                 })}
                             </div>
 
-                            {/* <h3>Community Partners</h3>
+                            <h3>Community Partners</h3>
                             <div className="row row-img grid mb-4">
                                 {CommunityPartners.map((item, index) => {
                                 return (
@@ -317,7 +317,7 @@ class Home extends Component {
                                     </div>                                              
                                 )
                                 })}
-                            </div> */}
+                            </div>
 
                             <div className="btn-container p-4" style={{ "text-align": "center" }}>
                             <br />
