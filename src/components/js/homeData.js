@@ -109,16 +109,16 @@ export const prizeItems = [
         more: "Learn more about the Filecoin Track Prize here.",
         prizeLink: "https://devfolio.notion.site/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203",
     },
-    {
-        prizeTitle: "Contributor Of The Year",
-        prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
-        prizeVector: "/img/logos/GitHub_Logo.svg",
-    },
-    {
-        prizeTitle: "Top 3 contributors",
-        prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
-        prizeVector: "/img/logos/GitHub_Logo.svg",
-    },
+    // {
+    //     prizeTitle: "Contributor Of The Year",
+    //     prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
+    //     prizeVector: "/img/logos/GitHub_Logo.svg",
+    // },
+    // {
+    //     prizeTitle: "Top 3 contributors",
+    //     prizeDescription: `Prizes from GitHub(T Shirts, Stickers, Magazines).`,
+    //     prizeVector: "/img/logos/GitHub_Logo.svg",
+    // },
     {
         prizeTitle: "Participants Digital",
         prizeDescription: `Freebies From XYZ Domains,Replit & Script Foundation.`,
@@ -127,10 +127,10 @@ export const prizeItems = [
 ]
 
 export const GoldSponsors = [
-    {
-        sponsorLink: "https://github.com/",
-        sponsorImg: "/img/logos/GitHub_Logo.svg",
-    },
+    // {
+    //     sponsorLink: "https://github.com/",
+    //     sponsorImg: "/img/logos/GitHub_Logo.svg",
+    // },
     {
         sponsorLink: "https://polygon.technology/",
         sponsorImg: "/img/logos/Polygon_Logo.svg",
@@ -195,24 +195,44 @@ export const CommunityPartners = [
         sponsorImg: "/img/logos/GDSC GNDU Center Logo.png",        
     },
     {
-        sponsorLink: "https://www.codedazzlers.xyz/",
-        sponsorImg: "/img/logos/codedazzlers.png",        
-    },
-    {
         sponsorLink: "https://gdsc.community.dev/lakshmi-narain-college-of-technology-bhopal/",
         sponsorImg: "/img/logos/GDSC Logo chapter lockup centered template.png",        
+    },
+    {
+        sponsorLink: "https://gdsc.community.dev/rajasthan-technical-university-kota/",
+        sponsorImg: "/img/logos/DSC RTU.jpg",        
+    },
+    {
+        sponsorLink: "https://www.codedazzlers.xyz/",
+        sponsorImg: "/img/logos/codedazzlers.png",        
     },
     {
         sponsorLink: "https://www.linkedin.com/company/techsahead/",
         sponsorImg: "/img/logos/Techsahead_Logo.png",        
     },
     {
-        sponsorLink: "",
+        sponsorLink: "https://opentek.live/",
         sponsorImg: "/img/logos/Opentek_black_Logo.png",        
+    },
+    {
+        sponsorLink: "",
+        sponsorImg: "/img/logos/msc new logo (BLACK)-01.png",        
     },
     {
         sponsorLink: "https://semikolan.co/",
         sponsorImg: "/img/logos/BANNER_YT-05.png",        
+    },
+    {
+        sponsorLink: "https://www.linkedin.com/company/upskill-community/?originalSubdomain=in",
+        sponsorImg: "/img/logos/upskill_Logo.png",        
+    },
+    {
+        sponsorLink: "https://www.linkedin.com/company/codefloworg/?originalSubdomain=in",
+        sponsorImg: "/img/logos/codeflow_logo.png",        
+    },
+    {
+        sponsorLink: "https://community.codecademy.com/kolkata/",
+        sponsorImg: "/img/logos/codecademy kolkata chapter logo.png",        
     },
 ]
 

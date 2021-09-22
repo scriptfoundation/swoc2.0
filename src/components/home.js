@@ -306,7 +306,7 @@ class Home extends Component {
                                 })}
                             </div>
 
-                            <h3>Community Partners</h3>
+                            <h3 className="mb-4">Community Partners</h3>
                             <div className="row row-img grid mb-4">
                                 {CommunityPartners.map((item, index) => {
                                 return (
