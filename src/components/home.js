@@ -91,7 +91,7 @@ class Home extends Component {
                     </div>
                     <div className="about-vector">
                         {/* <img src="./img/about.png" /> */}
-                        <img src={"/img/github.gif"} />
+                        <img src={"/img/graph.gif"} />
                     </div>
                 </section>
 
