@@ -98,6 +98,12 @@ class Home extends Component {
 
 
                 <section className="cards-bg-sec to-apply">
+                    <div class="alert alert-info alert-dismissible fade show" role="alert">
+                        <strong>NOTE:</strong> Those who are getting the RSVPs fron Devfolio they need to create a Sole/Individual team.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
                     <div className="apply-sec body-content">    
                         <h3 className="card__card__title">Registration</h3>
                         <div className="row">
