@@ -126,4 +126,24 @@ export const currentTeam = [
       },
     ]
   },
+
+  {
+    name: 'Garvitraj Pandey',
+    position: 'Program manager',
+    image: 'img/Team/garvitraj.png',
+    profiles: [
+      {
+        link: 'https://www.linkedin.com/in/garvitraj-pandey/',
+        icon: 'fa fa-linkedin',
+      },
+      {
+        link: 'https://twitter.com/GarvitrajPandey',
+        icon: 'fa fa-twitter',
+      },
+      {
+        link: 'https://www.instagram.com/garvitraj.pandey/',
+        icon: 'fa fa-instagram',
+      },
+    ]
+  },
 ];
