@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay } from 'reactstrap';
 import Marquee from "react-fast-marquee";
 import './css/team.scss'
 import { currentTeam } from './js/2021team';
@@ -104,15 +104,16 @@ class Team extends Component {
                 </section>
                 <div className="t-bottom-bar mt-5 mb-5">
                     <h1 className="intern-heading">Our Valuable Interns</h1>
-                    <Marquee speed="75" pauseOnHover="true" gradient={false}>
+                    <Marquee speed="75" pauseOnHover="true" gradient={false} play={true}>
                         <div className="intern-grid">
                             {internTeam.map((item, index) => {
                                 return (
                                     <Tilt className="Tilt" options={{ max: 85, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)" }}>
                                         <Card inverse className="Tilt-inner m-3">
-                                            <CardImg height="300" width="250" className="card-img" src={item.image} alt={item.name} />
+                                            <CardImg height="250" width="250" className="card-img" src={item.image} alt={item.name} />
                                             <CardImgOverlay className="intern-info">
-                                                <p>{item.name}</p>
+                                                <p className="intern-name">{item.name}</p>
+                                                <p className="intern-position">{item.position}</p>
                                                 <div className="member-info">
                                                     <ul>
                                                         {item.profiles.map((el, i) => {
