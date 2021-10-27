@@ -1,5 +1,6 @@
-import './App.css';
-import Index from './components/outline';
+import "./App.css";
+import Index from "./components/outline";
+import Community from "./components/community";
 
 function App() {
   return (
