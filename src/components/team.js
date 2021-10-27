@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
+import Marquee from "react-fast-marquee";
 import './css/team.scss'
 import { currentTeam } from './js/2021team';
 import { pastTeam } from './js/2020team';
@@ -101,31 +102,33 @@ class Team extends Component {
                         </div>
                     </div>
                 </section>
-                <div className="t-bottom-bar mt-5">
+                <div className="t-bottom-bar mt-5 mb-5">
                     <h2 className="intern-heading">Our Valuable Interns</h2>
-                    <div className="t-grid">
-                        {internTeam.map((item, index) => {
-                            return (
-                                <Tilt className="Tilt" options={{ max: 55, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)" }}>
-                                    <Card inverse className="Tilt-inner">
-                                        <CardImg width="200" height="350" src={item.image} alt={item.name} />
-                                        <CardImgOverlay className="intern-info">
-                                            <p>{item.name}</p>
-                                            <div className="member-info">
-                                                <ul>
-                                                    {item.profiles.map((el, i) => {
-                                                        return (
-                                                            <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
-                                                        )
-                                                    })}
-                                                </ul>
-                                            </div>
-                                        </CardImgOverlay>
-                                    </Card>
-                                </Tilt>
-                            )
-                        })}
-                    </div>
+                    <Marquee speed="120" pauseOnHover="true" gradient={false}>
+                        <div className="intern-grid">
+                            {internTeam.map((item, index) => {
+                                return (
+                                    <Tilt className="Tilt" options={{ max: 85, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)" }}>
+                                        <Card inverse className="Tilt-inner m-3">
+                                            <CardImg height="300" width="250" className="card-img" src={item.image} alt={item.name} />
+                                            <CardImgOverlay className="intern-info">
+                                                <p>{item.name}</p>
+                                                <div className="member-info">
+                                                    <ul>
+                                                        {item.profiles.map((el, i) => {
+                                                            return (
+                                                                <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
+                                                            )
+                                                        })}
+                                                    </ul>
+                                                </div>
+                                            </CardImgOverlay>
+                                        </Card>
+                                    </Tilt>
+                                )
+                            })}
+                        </div>
+                    </Marquee>
                 </div>
             </>
         );
