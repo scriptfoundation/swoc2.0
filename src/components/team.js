@@ -1,10 +1,13 @@
 import { React, Component } from 'react';
+import { Card, CardImg, CardImgOverlay } from 'reactstrap';
+import Marquee from "react-fast-marquee";
 import './css/team.scss'
 import { currentTeam } from './js/2021team';
 import { pastTeam } from './js/2020team';
-import { ParallaxDepthCard } from 'experiment-parallax-depth-card'
-import 'experiment-parallax-depth-card/dist/index.css'
-
+import { ParallaxDepthCard } from 'experiment-parallax-depth-card';
+import 'experiment-parallax-depth-card/dist/index.css';
+import { internTeam } from './js/intern-team';
+import Tilt from 'react-tilt';
 
 class Team extends Component {
     constructor(props) {
@@ -41,7 +44,7 @@ class Team extends Component {
                         <div className="p-header row">
                             <div className="p-header-content">
                                 <h1>Our Team</h1>
-                                <p className="header-paragraph">Meet the brains behind the ideation,developemnt and execution of Script Winter of Code.</p>                                
+                                <p className="header-paragraph">Meet the brains behind the ideation,developemnt and execution of Script Winter of Code.</p>
                             </div>
                             <div className="p-header-vector">
                                 <div className="p-vector">
@@ -59,15 +62,15 @@ class Team extends Component {
                         <div className="p-search">
                             <div className="p-prev-projs">
                                 <button className="p-projs2021" type="button" onClick={() => {
-                                        this.setState({ teamList: currentTeam})
-                                        window.location.href = "/#/team/#team"
-                                    }}>
+                                    this.setState({ teamList: currentTeam })
+                                    window.location.href = "/#/team/#team"
+                                }}>
                                     2021 Team
                                 </button>
                                 <button className="p-projs2020" type="button" onClick={() => {
-                                        this.setState({ teamList: pastTeam })
-                                        window.location.href = "/#/team/#team"
-                                    }}>
+                                    this.setState({ teamList: pastTeam })
+                                    window.location.href = "/#/team/#team"
+                                }}>
                                     2020 Team
                                 </button>
                             </div>
@@ -85,7 +88,7 @@ class Team extends Component {
                                             <div className="member-info">
                                                 <p>{item.position}</p>
                                                 <ul>
-                                                    {item.profiles.map((el,i) => {
+                                                    {item.profiles.map((el, i) => {
                                                         return (
                                                             <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
                                                         )
@@ -99,10 +102,38 @@ class Team extends Component {
                         </div>
                     </div>
                 </section>
-                <div className="t-bottom-bar"></div>
+                <div className="t-bottom-bar mt-5 mb-5">
+                    <h1 className="intern-heading">Our Valuable Interns</h1>
+                    <Marquee speed="75" pauseOnHover="true" gradient={false} play={true}>
+                        <div className="intern-grid">
+                            {internTeam.map((item, index) => {
+                                return (
+                                    <Tilt className="Tilt" options={{ max: 85, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)" }}>
+                                        <Card inverse className="Tilt-inner m-3">
+                                            <CardImg height="250" width="250" className="card-img" src={item.image} alt={item.name} />
+                                            <CardImgOverlay className="intern-info">
+                                                <p className="intern-name">{item.name}</p>
+                                                <p className="intern-position">{item.position}</p>
+                                                <div className="member-info">
+                                                    <ul>
+                                                        {item.profiles.map((el, i) => {
+                                                            return (
+                                                                <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
+                                                            )
+                                                        })}
+                                                    </ul>
+                                                </div>
+                                            </CardImgOverlay>
+                                        </Card>
+                                    </Tilt>
+                                )
+                            })}
+                        </div>
+                    </Marquee>
+                </div>
             </>
-         );
+        );
     }
 }
- 
+
 export default Team;
