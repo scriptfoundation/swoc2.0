@@ -103,8 +103,8 @@ class Team extends Component {
                     </div>
                 </section>
                 <div className="t-bottom-bar mt-5 mb-5">
-                    <h2 className="intern-heading">Our Valuable Interns</h2>
-                    <Marquee speed="120" pauseOnHover="true" gradient={false}>
+                    <h1 className="intern-heading">Our Valuable Interns</h1>
+                    <Marquee speed="75" pauseOnHover="true" gradient={false}>
                         <div className="intern-grid">
                             {internTeam.map((item, index) => {
                                 return (
