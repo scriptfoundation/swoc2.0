@@ -615,7 +615,7 @@ time {
       // color: #1a73e8;
       font-size: 16px;
       margin-top: 8px;
-    }  
+    }
   }
   a.learn-more {
     color: #1a73e8 !important;
@@ -636,14 +636,70 @@ time {
 }
 
 // sponsors
+.sponsor-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.val-sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 75px;
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    // text-decoration: underline;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .val-sponsors {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+}
+.sponsor-heading {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #081b24;
+}
+.underline {
+  height: 4px;
+  background-color: #f2aa7a;
+  width: 363.01px;
+}
+
+.line {
+  height: 4px;
+  background-color: #c4c4c4;
+  width: 375px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .line {
+    width: 2em;
+  }
+}
+
 
 .sponsors-section {
   padding: 40px 0;
 }
 
 .powered-conatiner {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 75px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -770,8 +826,14 @@ time {
   text-align: center;
   font-size: 2.3rem;
   // color: #1a73e8;
-  text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+  .community h3 {
+    font-size: 2rem;
+  }
+}
+
 
 .go-corner {
   display: flex;
