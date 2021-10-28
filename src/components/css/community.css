@@ -1,0 +1,128 @@
+.community {
+  font-family: "Roboto", sans-serif;
+}
+.community_header {
+  width: 100%;
+  height: fit-content;
+  background-color: #081b24;
+  position: relative;
+  color: white;
+}
+.wave {
+  width: 100.2%;
+  object-fit: cover;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+}
+
+.community_header_all {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 10px 100px 10px;
+}
+
+.community_header_left {
+  padding-top: 72px;
+  padding-bottom: 50px;
+  max-width: 550px;
+}
+
+.community_header_left > h1 {
+  font-size: 2.5em;
+}
+.community_header_left > h5 {
+  font-size: 1.5em;
+}
+.community_header_left > h2 {
+  margin-top: 25px;
+  font-size: 2em;
+}
+
+.community_header_left > a {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid white;
+  font-size: 1.1em;
+  margin-top: 10px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #081b24;
+  color: white;
+  padding: 5px;
+  width: 25%;
+  text-decoration: none;
+}
+
+.community_header_left > a:hover {
+  background-color: #0c2835;
+}
+
+.community_header_right {
+  margin-top: 52px;
+  width: 40%;
+  object-fit: contain;
+}
+@media only screen and (max-width: 1000px) {
+  .community_header_all {
+    flex-direction: column-reverse;
+    gap: 50px;
+    padding: 10px 10px 5px 10px;
+  }
+  .community_header_right {
+    width: 90%;
+  }
+  .community_header_left {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    max-width: 700px;
+  }
+  .community_header_left {
+    text-align: center;
+  }
+
+  .community_header_left > h1 {
+    font-size: 1.5em;
+  }
+  .community_header_left > h5 {
+    font-size: 1em;
+  }
+  .community_header_left > h2 {
+    font-size: 1.3em;
+  }
+}
+.community_component_header {
+  text-align: center;
+}
+.community_component_header > h1 {
+  padding-top: 10px;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.underline {
+  border: 2px solid rgb(248, 163, 163);
+  background-color: rgb(248, 163, 163);
+  width: 20%;
+  margin: auto;
+}
+
+.community_component_logo {
+  margin-top: 70px;
+}
+.underline1 {
+  border: 2px solid rgb(182, 181, 181);
+  background-color: rgb(182, 181, 181);
+  width: 80%;
+  margin: auto;
+}
+.underline2 {
+  border: 2px solid rgb(182, 181, 181);
+  background-color: rgb(182, 181, 181);
+  width: 80%;
+  margin: 10px auto 20px auto;
+}
