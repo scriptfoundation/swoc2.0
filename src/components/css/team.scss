@@ -10,7 +10,17 @@
   --logo-l2: #0094ff;
   --logo-l3: #8dc500;
 }
-
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .team-header {
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -58,14 +68,16 @@
 }
 
 ._2NQ6L:hover ._xsi02 {
-  box-shadow: rgba(255, 255, 255, 0.6) 0 0 10px 1px, white 0 0 0 1px, black 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px !important;
+  box-shadow: rgba(255, 255, 255, 0.6) 0 0 10px 1px, white 0 0 0 1px,
+    black 0 30px 60px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px !important;
 }
 
 ._xsi02 {
   width: 290px !important;
   height: 330px !important;
   border-radius: 0 !important;
-  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px 0, inset #333 0 0 0 5px, inset white 0 0 0 6px !important;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px !important;
 }
 
 ._wcf8- {
@@ -75,7 +87,7 @@
 }
 
 ._jk5LF {
-  *{
+  * {
     display: block;
   }
   &:after {
@@ -90,7 +102,7 @@
   transition: all 0.35s cubic-bezier(0.14, 0.51, 0, 1);
   display: flex;
   flex-direction: column;
-  
+
   picture {
     width: 100%;
     max-height: 350px;
@@ -143,11 +155,74 @@
 }
 
 .t-bottom-bar {
-    height: 35px;
-    width: 100%;
-    background: var(--winter-w1);
+  height: auto;
+  width: 100%;
+  // background: var(--winter-w1);
+}
+.intern-grid {
+  display: flex;
+  .card-img {
+    width: 12.5rem;
+  }
+}
+.intern-heading {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
+.intern-heading::after {
+  content: "";
+  height: 5px;
+  width: 21%;
+  display: block;
+  background-color: #e79f4b;
+}
+.Tilt-inner {
+  cursor: pointer;
+  flex-grow: 1;
+}
+.Tilt-inner:hover {
+  .intern-position {
+    animation: fadein 1s linear 1 forwards;
+    display: flex;
+  }
+  ul {
+    animation: fadein 1s linear 1 forwards;
+    display: flex;
+  }
+}
+.intern-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 3px 7px rgb(219, 217, 217);
+  .intern-name {
+    font-family: "Roboto" !important;
+    font-size: 22px !important;
+    font-weight: 300 !important;
+    text-shadow: 2px 2px 4px #000 !important;
+    margin: 0 !important;
+  }
+  .intern-position {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+    color: var(--winter-w1);
+    display: none;
+  }
+  ul {
+    display: none;
+  }
+  a {
+    &.fa-linkedin {
+      color: var(--winter-w2);
+    }
+  }
+}
 // Responsive
 
 @media only screen and (max-width: 1100px) {
