@@ -43,8 +43,6 @@
 }
 
 .community_header_left > a {
-  margin-left: auto;
-  margin-right: auto;
   display: block;
   border: 1px solid white;
   font-size: 1.1em;
@@ -94,6 +92,10 @@
   }
   .community_header_left > h2 {
     font-size: 1.3em;
+  }
+  .community_header_left > a {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .community_component_header {
