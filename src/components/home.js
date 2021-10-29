@@ -274,11 +274,20 @@ class Home extends Component {
 
         <section className="sponsors-section">
           <a name="/#sponsors"></a>
-          <div className="body-content powered-conatiner">
-            <h3>Powered by</h3>
-            <a href="https://devfolio.co/" target="_blank">
-              <img src={"/img/logos/Devfolio_Logo.svg"} />
-            </a>
+
+          <div className="main_powered_container">
+            <div className="body-content powered-conatiner">
+              <h3>Powered by</h3>
+              <a href="https://devfolio.co/" target="_blank">
+                <img src={"/img/logos/Devfolio_Logo.svg"} />
+              </a>
+            </div>
+            <div className="body-content powered-conatiner">
+              <h3>Co-Powered by</h3>
+              <a href="https://athenasquare.org/" target="_blank">
+                <img src={"/img/logos/athenasquare.png"} id="athenaImg" />
+              </a>
+            </div>
           </div>
           <div className="val-sponsors">
             <h1 className="sponsor-heading">Our Valuable Sponsors</h1>
@@ -336,10 +345,10 @@ class Home extends Component {
               </div>
 
               <div className="sponsor-header">
-                    <div className="line"></div>
-                    <h3 className="">Silver Sponsors</h3>
-                    <div className="line"></div>
-                  </div>
+                <div className="line"></div>
+                <h3 className="">Silver Sponsors</h3>
+                <div className="line"></div>
+              </div>
               <div className="row row-img grid mb-4 justify-content-center">
                 {SilverSponsors.map((item, index) => {
                   return (
@@ -353,10 +362,10 @@ class Home extends Component {
               </div>
 
               <div className="sponsor-header">
-                    <div className="line"></div>
-                    <h3 className="">Bronze Sponsors</h3>
-                    <div className="line"></div>
-                  </div>
+                <div className="line"></div>
+                <h3 className="">Bronze Sponsors</h3>
+                <div className="line"></div>
+              </div>
               <br />
               <div className="row row-img grid mb-4">
                 {Sponsors.map((item, index) => {
@@ -370,7 +379,6 @@ class Home extends Component {
                 })}
               </div>
 
-              
               <div
                 className="btn-container p-4"
                 style={{ "text-align": "center" }}
