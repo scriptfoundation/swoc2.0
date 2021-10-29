@@ -264,12 +264,12 @@ class Index extends Component {
                   <div className="f-bottom-right">
                     <p>
                       Made with ❤️ by
+                      {" "}
                       <a
-                        className="yellow-text underline"
+                        // className="yellow-text underline"
                         href="https://scriptindia.org"
                         target="_blank"
                       >
-                        {" "}
                         Script Foundation
                       </a>
                     </p>
