@@ -712,6 +712,12 @@ time {
 
 .main_powered_container {
   display: flex;
+  justify-content: center;
+
+  .space {
+    min-width: 30px;
+    width: 7%;
+  }
 }
 
 #athenaImg {

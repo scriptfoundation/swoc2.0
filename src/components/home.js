@@ -275,14 +275,15 @@ class Home extends Component {
         <section className="sponsors-section">
           <a name="/#sponsors"></a>
 
-          <div className="main_powered_container">
-            <div className="body-content powered-conatiner">
+          <div className="main_powered_container body-content">
+            <div className="powered-conatiner">
               <h3>Powered by</h3>
               <a href="https://devfolio.co/" target="_blank">
                 <img src={"/img/logos/Devfolio_Logo.svg"} />
               </a>
             </div>
-            <div className="body-content powered-conatiner">
+            <div className="space"></div>
+            <div className="powered-conatiner">
               <h3>Co-Powered by</h3>
               <a href="https://athenasquare.org/" target="_blank">
                 <img src={"/img/logos/athenasquare.png"} id="athenaImg" />

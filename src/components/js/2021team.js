@@ -146,6 +146,7 @@ export const currentTeam = [
       },
     ],
   },
+  
   {
     name: "Muskan Goyal",
     position: "Program manager",
