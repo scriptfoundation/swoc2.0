@@ -286,7 +286,10 @@ class Home extends Component {
             <div className="powered-conatiner">
               <h3>Co-Powered by</h3>
               <a href="https://athenasquare.org/" target="_blank">
-                <img src={"/img/logos/athenasquare.png"} id="athenaImg" />
+                <embed
+                  src={"/img/logos/AthenaSquare_Logo.svg"}
+                  id="athenaImg"
+                />
               </a>
             </div>
           </div>
