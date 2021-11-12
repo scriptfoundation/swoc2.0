@@ -283,12 +283,12 @@ class Home extends Component {
               </a>
             </div>
             <div className="space"></div>
-            <div className="powered-conatiner">
+            {/* <div className="powered-conatiner">
               <h3>Co-Powered by</h3>
               <a href="https://athenasquare.org/" target="_blank">
                 <img src={"/img/logos/athenasquare.png"} id="athenaImg" />
               </a>
-            </div>
+            </div> */}
           </div>
           <div className="val-sponsors">
             <h1 className="sponsor-heading">Our Valuable Sponsors</h1>
