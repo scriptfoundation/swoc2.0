@@ -332,22 +332,22 @@ class Home extends Component {
                 </div>
 
                 {/* <div className="col-md-6">
-                                    <h3>Platform Partners</h3>
-                                    <br />
-                                    <div className="community">
-                                        <div className="row row-img grid">
-                                            {PlatformPartners.map((item, index) => {
-                                            return (
-                                                <div className="col-12 img-div">
-                                                    <a href={item.sponsorLink} target="_blank">
-                                                        <img className="sponsor-img" src={item.sponsorImg} />
-                                                    </a>
-                                                </div>                                                
-                                            )
-                                            })}
-                                        </div>
-                                    </div>
-                                </div> */}
+                  <h3>Platform Partners</h3>
+                  <br />
+                  <div className="community">
+                      <div className="row row-img grid">
+                          {PlatformPartners.map((item, index) => {
+                          return (
+                              <div className="col-12 img-div">
+                                  <a href={item.sponsorLink} target="_blank">
+                                      <img className="sponsor-img" src={item.sponsorImg} />
+                                  </a>
+                              </div>                                                
+                          )
+                          })}
+                      </div>
+                  </div>
+                </div> */}
               </div>
 
               <div className="sponsor-header">
