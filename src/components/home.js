@@ -268,8 +268,8 @@ class Home extends Component {
           </div>
 
           {/* <div className="about-vector">
-                        <img src={"/img/trophy2-min.jpg"} />
-                    </div> */}
+              <img src={"/img/trophy2-min.jpg"} />
+          </div> */}
         </section>
 
         <section className="sponsors-section">
@@ -282,11 +282,15 @@ class Home extends Component {
                 <img src={"/img/logos/Devfolio_Logo.svg"} />
               </a>
             </div>
-            <div className="space"></div>
+            
+            {/* <div className="space"></div> */}
             {/* <div className="powered-conatiner">
               <h3>Co-Powered by</h3>
               <a href="https://athenasquare.org/" target="_blank">
-                <img src={"/img/logos/athenasquare.png"} id="athenaImg" />
+                <embed
+                  src={"/img/logos/AthenaSquare_Logo.svg"}
+                  id="athenaImg"
+                />
               </a>
             </div> */}
           </div>
@@ -327,22 +331,22 @@ class Home extends Component {
                 </div>
 
                 {/* <div className="col-md-6">
-                                    <h3>Platform Partners</h3>
-                                    <br />
-                                    <div className="community">
-                                        <div className="row row-img grid">
-                                            {PlatformPartners.map((item, index) => {
-                                            return (
-                                                <div className="col-12 img-div">
-                                                    <a href={item.sponsorLink} target="_blank">
-                                                        <img className="sponsor-img" src={item.sponsorImg} />
-                                                    </a>
-                                                </div>                                                
-                                            )
-                                            })}
-                                        </div>
-                                    </div>
-                                </div> */}
+                  <h3>Platform Partners</h3>
+                  <br />
+                  <div className="community">
+                      <div className="row row-img grid">
+                          {PlatformPartners.map((item, index) => {
+                          return (
+                              <div className="col-12 img-div">
+                                  <a href={item.sponsorLink} target="_blank">
+                                      <img className="sponsor-img" src={item.sponsorImg} />
+                                  </a>
+                              </div>                                                
+                          )
+                          })}
+                      </div>
+                  </div>
+                </div> */}
               </div>
 
               <div className="sponsor-header">
