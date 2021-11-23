@@ -268,8 +268,8 @@ class Home extends Component {
           </div>
 
           {/* <div className="about-vector">
-                        <img src={"/img/trophy2-min.jpg"} />
-                    </div> */}
+              <img src={"/img/trophy2-min.jpg"} />
+          </div> */}
         </section>
 
         <section className="sponsors-section">
