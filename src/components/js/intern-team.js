@@ -9,6 +9,7 @@ import PallaviImg from '../img/Interns/Pallavi_U.jpeg';
 import ShreeImg from '../img/Interns/Shree_M.jpg';
 import RajaImg from '../img/Interns/Raja_S.jpg';
 import AmbujImg from '../img/Interns/Ambuj_S.jpg';
+import SusritaImg from '../img/Interns/SusritaImg.jpeg';
 
 export const internTeam = [
     {
@@ -134,6 +135,22 @@ export const internTeam = [
                 link: 'https://www.linkedin.com/in/raja-kumar-00a6a51b1',
                 icon: 'fa fa-linkedin',
             }
+        ]
+    },
+    {
+        name: 'Susrita Chatterjee',
+        position: 'Graphic Designer Intern',
+        image: SusritaImg,
+        profiles: [
+            {
+                link: 'https://www.linkedin.com/mwlite/in/susrita-chatterjee-423519194',
+                icon: 'fa fa-linkedin',
+            },
+            {
+                link: 'https://www.behance.net/susritachatter',
+                icon: 'fa fa-behance',
+            }
+
         ]
     }
 ];
