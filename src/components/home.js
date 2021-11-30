@@ -284,7 +284,6 @@ class Home extends Component {
             </div>
             
             {/* <div className="space"></div> */}
-
             {/* <div className="powered-conatiner">
               <h3>Co-Powered by</h3>
               <a href="https://athenasquare.org/" target="_blank">

@@ -1,495 +1,488 @@
 export const currentProjects = [
-
   {
-    Name: 'Internship Onboarding Platform',
-    Repo: 'https://github.com/praveenscience/Internship-LMS-FrontEnd',
-    Owner: 'Praveen Kumar Purushothaman',
-    github: 'https://github.com/praveenscience',
-    linkedin: 'https://www.linkedin.com/in/praveentech/',
-    Description: `A nice way to onboard new interns to projects and teach them too.`,
-    TechStack: ["MERN", "ReactJS", "NodeJS", "bootstrap5", "ExpressJS"],
+    Name: "Dezenix",
+    Repo: "https://github.com/Dezenix",
+    Owner: "Swanand Wagh",
+    github: "https://github.com/Dezenix",
+    linkedin: "https://www.linkedin.com/company/dezenix/",
+    Description: `We focus on complete end to frontend components that saves your development time and have provide the quick support. Also we have the complete end to end UI/UX for the App and Websites that faters your design visions `,
+    TechStack: [
+      "HTML",
+      "CSS",
+      "JS",
+      "REACT",
+      "VUE",
+      "KOTLIN",
+      "FLUTTER",
+      "SWIFT",
+      "FIGMA",
+      "ADOBE XD",
+    ],
+  },
+  {
+    Name: "Code2Flow",
+    Repo: "https://github.com/Hack-Club-KNIT/Code2Flow",
+    Owner: "Ayush Singh",
+    github: "https://github.com/Raynor-X",
+    linkedin: "https://www.linkedin.com/in/ayush-singh-101/",
+    Description: `This project is based on the idea to convert tedious-looking code into an interactive flowgraph to make it easier to understand and debug errors which would, in turn, increase the productivity of the developer. This project's final product would be a vs code extension to run in real time.`,
+    TechStack: ["Python", "JavaScript", "Designing"],
   },
 
   {
-    Name: 'Doc2Pen',
-    Repo: 'https://github.com/smaranjitghose/doc2pen',
-    Owner: 'Smaranjit Ghose',
-    github: 'https://github.com/smaranjitghose',
-    linkedin: 'https://www.linkedin.com/in/smaranjitghose/',
-    Description: `Doc2Pen started as a pet project to help my fellow batchmates cope up with the needs of doing several handwritten assignments amidst the pandemic. Now are expanding as a small yet bonded open source project that aims to make the academic lives of our students easier, one function at a time. I am looking forward to integrating features like drawing, UML, quiz, a platform to practice timed responses for exams like TOEFL, GRE, IELTS [especially the Writing part. I personally need this as I had 1 day to study and score a 115/120] and in the far future an open-source plagiarism checker [because Grammarly cannot be trusted fully for research work and Turnitin is mostly available to faculties]`,
-    TechStack: ["HTML", "CSS", "Javascript", "React"],
+    Name: "IoT Spot",
+    Repo: "https://github.com/prathimacode-hub/IoT-Spot",
+    Owner: "Prathima Kadarie",
+    github: "https://github.com/prathimacode-hub",
+    linkedin: "https://www.linkedin.com/in/prathima-kadari/",
+    Description: `An Amazing Spot to step up the foot into this ocean of ""Internet Of things"" and explore the fiesta of electronics. 
+    The main aim of this project is to provide a cabin that would help you in mastering ""Internet Of Things"" and making your hands dirty while exploring. Definitely an enriching field that makes one's life turn smarter and be more closer to technology.                                                
+    A small effort to bring out the importance of Embedded Systems and nurture the young college students and graduates in becoming a pro and broadening up their vision at a single go. This would help all the enthusiasts indulge in this fruitful experience while developing learning by doing attitude, engaging with multiple IDE's, development boards, PCB compilations and most importantly getting strong foundations on real-time project building.`,
+    TechStack: ["IOT", "C", "C++", "Python"],
   },
 
   {
-    Name: 'Face Mask Detection',
-    Repo: 'https://github.com/chandrikadeb7/Face-Mask-Detection',
-    Owner: 'Chandrika Deb',
-    github: 'https://github.com/chandrikadeb7',
-    linkedin: 'https://www.linkedin.com/in/chandrika-deb/',
-    Description: `Face Mask Detection system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.`,
-    TechStack: ["Python", "Deep Learning", "Computer Vision"],
-  },
+    Name: "ProjectLearn",
+    Repo: "https://github.com/Xtremilicious/projectlearn-project-based-learning",
+    Owner: "Nilarjun Das",
+    github: "https://github.com/Xtremilicious",
+    linkedin: "https://www.linkedin.com/in/nilarjundas",
+    Description: `"What is it about?
 
-
-  {
-    Name: 'ArtCV',
-    Repo: 'https://github.com/smaranjitghose/ArtCV',
-    Owner: 'Smaranjit Ghose',
-    github: 'https://github.com/smaranjitghose',
-    linkedin: 'https://www.linkedin.com/in/smaranjitghose/',
-    Description: `ArtCV is an initiative to create a platform that makes use of Computer Vision, Image Processing, and Deep Learning [ mostly GANS and Variational Autoencoders] under the hood to provide us with various artistic outputs for any image. We are also exploring Bio-medical benefits using Ishihara Discs. This can be described as a measure to re-create something similar to PRISMA but with the power of the open source, without any associated bloatware and an added benefit of letting others learn Computer Vision while contributing to the project and getting to know about latest techniques which otherwise remain sealed in research papers posted every month!`,
-    TechStack: ["Python", "OpenCV", "TensorFlow", "StreamLit", "Image Processing", "Computer Vision"],
-  },
-
-  {
-    Name: 'img_ai_app boilerplate',
-    Repo: 'https://github.com/smaranjitghose/img_ai_app_boilerplate',
-    Owner: 'Smaranjit Ghose',
-    github: 'https://github.com/smaranjitghose',
-    linkedin: 'https://www.linkedin.com/in/smaranjitghose/',
-    Description: `This project [ I have kept the name weird but it makes sense ] is for creating an open-source template that any developer, data scientist, researcher, or hobbyist can use for building a prototype of their Artificial Intelligence model(algorithm) dealing with images and performing tasks like Image Classification, Object Detection, Post Estimation, etc and then host it easily using services like Heroku, AWS, GCP and others. We believe the 2020s are the years where ML models need to come out of the Jupyter Notebooks for some and every reason and we want to make the process simpler for a lot of people who get intimidated or don't have much time to do it from scratch. [ Currently, we are just laser-focused on Deep Learning based approach and that too Image Classification. But with the passage of time, we intend to make it more generalized]`,
-    TechStack: ["StreamLit", "Python", "HTML", "CSS", "TensorFlow", "TensorFlow.JS"],
-  },
-
-
-
-  {
-    Name: 'Alexa-skills-starters',
-    Repo: 'https://github.com/garimasingh128/Alexa-skills-starters',
-    Owner: 'Garima Singh',
-    github: 'https://github.com/garimasingh128',
-    linkedin: 'https://www.linkedin.com/in/garima-singh-34042a177/',
-    Description: `👣 Awesome Alexa skills
-    🧐 A collection of super-cool Amazon Alexa skills for starters!! ✨
-    Author License Platform Maintained
-
-    💻 What are Amazon alexa skills? 👣
-    Alexa is Amazon’s Voice Service, accessed through Amazon Echo. After the set up process, you simply say the word ‘Alexa’ and Echo will light up and Alexa will respond. You can change this 'wake word' to either 'Amazon' or 'Echo'. Alexa can help you with music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, as well as providing weather, traffic and other real-time information.
-
-    💻 What’s a skill?
-    Alexa skills are like apps. You can enable and disable skills, using the Alexa app or a web browser, in the same way that you install and uninstall apps on your smart phone or tablet. Skills are voice-driven Alexa capabilities. You can add Alexa skills to your Echo to bring products and services to life. You can view available skills and enable or disable them using your Alexa app.
-
-    💻 Where do I find my skills?
-    You'll find all the skills on your Alexa app. If you're looking for the EDF Energy Alexa skill to complete the account linking process, type 'EDF Energy' in the search box. You can then follow the account linking process. Account has been linked, but can't find the EDF Energy Alexa skill? In your Alexa app visit 'My Skills' and search for 'EDF Energy' there.
-
-    ✍  Skills developed
-    Cakewalk - A starter template for beginners
-    My inspirations - Suggests quotes and thoughts
-    Touristy - Tells info about tourist places of Australia
-    Hello world - my hosted skill`,
-    TechStack: ["Javascript", "Python"],
+    Are you tired of writing the same git commands over and over again? If so, this project can help you reduce that effort significantly. The app does this by automating a lot of stuff for you. The user just has to enter the commit message for the changed file, rest the app handles everything for the user.
+    
+    Features of GitHub - Automation
+    
+    1. Removes repetition of entering same git commands
+    2. Displays the changed file along with its diff/raw-diff for making it easy to write commit messages
+    3. Auto pushes the files that have been committed
+    4. Stores the staged files status locally so the files can be committed and pushed later on.
+    5. Clean and clutter-free UI"`,
+    TechStack: ["React", "NextJS", "HTML", "CSS", "JavaScript"],
   },
 
   {
-    Name: 'FantomsAR-shopping-app',
-    Repo: 'https://github.com/som23ya/FantomsAR-shopping-app',
-    Owner: 'Somya Upadhyay',
-    github: 'https://github.com/som23ya',
-    linkedin: 'https://www.linkedin.com/in/somya-upadhyay-5b2028166/',
-    Description: `"Our intention is to give shoppers of our storefront the option of AR features with an android application. A complete virtual store that gives users the chance to experience the masks, clothing, and other commodities in AR.
-    As of this year, Google has recently announced many more ARCore features to be made available over the web(which is currently pending public release) and Android. Having implemented ARkit and Arcore, we felt it’s time to get the word out there on the true capabilities of these features."`,
-    TechStack: [],
+    Name: "Chapter3 - Book Rental App",
+    Repo: "https://github.com/Saransh-cpp/BookRentApp-Chapter3",
+    Owner: "Saransh Chopra",
+    github: "https://github.com/Saransh-cpp",
+    linkedin: "https://www.linkedin.com/in/saransh-chopra-3a6ab11bb/",
+    Description: `An e-commerce app specifically designed for renting books at cheap prices. The functionality of the app and the basic structure is almost done but the UI and the frontend are missing.`,
+    TechStack: ["Dart", "Flutter", "Firebase", "Firestore"],
   },
 
   {
-    Name: 'Lane Detection using OpenCV',
-    Repo: 'https://github.com/akshitagupta15june/lane_detection_opencv',
-    Owner: 'Akshita Gupta',
-    github: 'https://github.com/akshitagupta15june',
-    linkedin: 'https://www.linkedin.com/in/akshita-gupta-a4a895187',
-    Description: `The lane detection has proved to be an efficient technique to prevent accidents in Intelligent Transportation Systems.The review on lane detection has shown that the most of the researchers has neglected the problem of the fog and noise in images. Thus noise and fog may reduce the accuracy of the existing systems.`,
-    TechStack: ["Python", "OpenCV"],
+    Name: "PokeDex",
+    Repo: "https://github.com/infiniteoverflow/PokeDex",
+    Owner: "Aswin Gopinathan",
+    github: "https://github.com/infiniteoverflow",
+    linkedin: "https://www.linkedin.com/in/aswin-gopinathan-69556716a/",
+    Description: `"Through this project, I aim to help the participants strengthen their knowledge in Flutter and working with public APIs. 
+    This project uses the public API: ""PokeAPI"" which provides details about every item in the Pokemon world and helps you leverage the power of GraphQL for accessing the API endpoints in your applications.
+    And since this project is pretty new, the participants will get an idea about working on a live project from scratch."`,
+    TechStack: ["Flutter", "Firebase", "GraphQL"],
   },
 
   {
-    Name: 'Face-X',
-    Repo: 'https://github.com/akshitagupta15june/Face-X',
-    Owner: 'Akshita Gupta',
-    github: 'https://github.com/akshitagupta15june',
-    linkedin: 'https://www.linkedin.com/in/akshita-gupta-a4a895187',
-    Description: `AI BASED FACIAL RECOGNITION ATTENDANCE SYSTEM`,
-    TechStack: ["Python", "OpenCV", "CNN", "ANN"],
-  },
-
-  {
-    Name: 'QP-Generator',
-    Repo: 'https://github.com/Team-Tomato/QP-Generator',
-    Owner: 'Akbar Habeeb B',
-    github: 'https://github.com/AkbarHabeeb',
-    linkedin: 'https://www.linkedin.com/in/akbarhabeebb/',
-    Description: `Question paper generator helper, wiki: https://github.com/Team-Tomato/QP-Generator/wiki`,
-    TechStack: ["React", "Flask"],
-  },
-
-  {
-    Name: 'PyDataStructs',
-    Repo: 'https://github.com/codezonediitj/pydatastructs',
-    Owner: 'Gagandeep Singh',
-    github: 'https://github.com/czgdp1807/',
-    linkedin: 'https://www.linkedin.com/in/czgdp1807/',
-    Description: `"Currently, the project aims to be a Python package for various data structures in computer science. Besides, we are also working on including parallel algorithms. To the best of our knowledge, a well-designed library/package which has covered most of the data structures and algorithms including their parallel implementation doesn't exist. In future, i.e, after a few releases of the package when the software design will become stable, we also aim to provide APIs for the code in C++ and Java as well."`,
-    TechStack: ["Python", "Git"],
-  },
-
-  {
-    Name: 'Water Monitoring System',
-    Repo: 'https://github.com/vinitshahdeo/Water-Monitoring-System/',
-    Owner: 'Vinit Shahdeo',
-    github: 'https://github.com/vinitshahdeo/',
-    linkedin: 'https://www.linkedin.com/in/vinitshahdeo/',
-    Description: `Water Monitoring System is an web based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.`,
-    TechStack: ["React", "Node.js"],
-  },
-
-  {
-    Name: 'Port Scanner',
-    Repo: 'https://github.com/vinitshahdeo/PortScanner',
-    Owner: 'Vinit Shahdeo',
-    github: 'https://github.com/vinitshahdeo/',
-    linkedin: 'https://www.linkedin.com/in/vinitshahdeo/',
-    Description: `A go-to tool for scanning network. Scan all the open ports for a given host with just one click.`,
-    TechStack: ["Python", "Flask"],
-  },
-
-  {
-    Name: 'eduAlgo',
-    Repo: 'https://github.com/Abhijit2505/eduAlgo',
-    Owner: 'Abhijit Tripathy',
-    github: 'https://github.com/Abhijit2505',
-    linkedin: 'https://www.linkedin.com/in/abhijit-tripathy-415912187/',
-    Description: `This is a very simple python package made up with python script to contain & study different algorithms for educational purposes. This project has been a part of FOSS Hack 2020 and PyCon India 2020 Devsprint before as well. The PyPI package can ve viewed here - https://pypi.org/project/eduAlgo/`,
-    TechStack: ["Python", "Algorithms"],
-  },
-
-  {
-    Name: 'Dolos',
-    Repo: 'https://github.com/ACM-VIT/dolos',
-    Owner: 'Yash Kumar Verma',
-    github: 'https://github.com/yashkumarverma/',
-    linkedin: 'https://www.linkedin.com/in/yash-kumar-verma/',
-    Description: `Ever wanted to get random data for that app you were building but didn't want to bloat your requests with unwanted data? We're here to help. Dolos is a server written in Javascript which generates random data in the exact structure as is required by the user, at a blazing speed by serving only what's requested. Everything without using complex technologies like graphql. Perfect for beginners.`,
-    TechStack: ["Javascript", "MySQL Database", "Data Mocking"],
-  },
-
-  {
-    Name: 'Algorithmic Treasure',
-    Repo: 'https://github.com/Abhijit2505/Algorithmic-Treasure-Original',
-    Owner: 'Abhijit Tripathy',
-    github: 'https://github.com/Abhijit2505',
-    linkedin: 'https://www.linkedin.com/in/abhijit-tripathy-415912187',
-    Description: `Many a times when interview approaches, the interview preparing students start searching for different Data Structures and algorithm problems in the internet. This project is a website that has many previously asked interview questions and their solutions.`,
-    TechStack: ["HTML", "CSS", "Bootstrap", "Algorithms", "Python", "C++"],
-  },
-
-  {
-    Name: 'AapKaVaidya',
-    Repo: 'https://github.com/Harshit564/AapKaVaidya',
-    Owner: 'Harshit Singh',
-    github: 'https://github.com/Harshit564',
-    linkedin: 'https://www.linkedin.com/in/harshit-singh-lko/',
-    Description: `A flutter based application for easy interaction between patients and doctors. During a Pandemic many of the patients are looking to get regular health check-ups but moving outside in such conditions seems risky.`,
-    TechStack: ["Flutter", "Firebase"],
-  },
-
-  {
-    Name: 'Canvasboard',
-    Repo: 'https://github.com/Canvasbird/canvasboard',
-    Owner: 'Kajol Kumari',
-    github: 'https://github.com/Kajol-Kumari',
-    linkedin: 'https://www.linkedin.com/in/kajol-kumari-73245b166/',
-    Description: `It's a way to ease the online teaching process and make it more interactive and prodctive. For more details, do checkout https://github.com/Canvasbird/canvasboard`,
-    TechStack: ["Angular8", "MongoDB", "MongoDB", "React", "Express", "NodeJS"],
-  },
-
-  {
-    Name: 'Amazing-Python-Scripts',
-    Repo: 'https://github.com/avinashkranjan/Amazing-Python-Scripts',
-    Owner: 'Avinash Kumar Ranjan',
-    github: 'https://github.com/avinashkranjan',
-    linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
-    Description: `A curated collection of Amazing Python scripts from Basics to Advance with automation task scripts. This is your Personal space to find or add any new script that can make Life Easier as a Developer, and to find a utility of coding to burst out of boredom.`,
-    TechStack: ["Python", "HTML", "CSS", "Javascript", "Flask", "Markdown"],
-  },
-
-  {
-    Name: 'Scrum-Management',
-    Repo: 'https://github.com/Harshita248/Scrum-Management',
-    Owner: 'Harshita Raj',
-    github: 'https://github.com/Harshita248',
-    linkedin: 'https://www.linkedin.com/in/harshita-raj',
-    Description: `The idea of the project is to customize all the ongoing projects under one roof. The website includes certain columns which is like working, in progress, done ,etc and once the student enters his/her details into the Website with the currently working project his details will be stored on the database and will show on the first column. After that when the Project comes in progress the cards of the column will shift to another column. We also have an admin login and signup where an admin can be assigned as a mentor to the particular student which he accepts by clicking the accept button shown in the popup window. This way it will work for different organisations . I thought to make it real for my coding club but now it's for all organization . This project is in progress as of now and I would like to include this in this open source program.`,
-    TechStack: ["HTML", "CSS", "Javascript", "MongoDB", "Nodejs"],
-  },
-
-  {
-    Name: 'Snippet Share',
-    Repo: 'https://github.com/PragatiVerma18/Snippet-Share',
-    Owner: 'Pragati Verma',
-    github: 'https://github.com/PragatiVerma18',
-    linkedin: 'https://www.linkedin.com/in/pragativerma18/',
+    Name: "Snippet-Share",
+    Repo: "https://github.com/PragatiVerma18/Snippet-Share",
+    Owner: "Pragati Verma",
+    github: "https://github.com/PragatiVerma18",
+    linkedin: "https://www.linkedin.com/in/pragativerma18/",
     Description: `This is a code snippet sharing app that lets you share syntax-highlighted code snippets with easy copy-paste options and a secure secret code and a unique URL.`,
-    TechStack: ["Django", "HTML", "CSS", "Javascript", "Bulma CSS"],
+    TechStack: ["Javascript", "HTML", "CSS", "Django", "Bulma CSS", "Python"],
   },
 
   {
-    Name: 'Friday',
-    Repo: 'https://github.com/avinashkranjan/Friday',
-    Owner: 'Avinash Kumar Ranjan',
-    github: 'https://github.com/avinashkranjan',
-    linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
-    Description: `Friday - Your Personal Class Manager Assistant, It'll never let you miss another assignment deadline or upcoming test.`,
-    TechStack: ["Flutter", "Dart", "HTML", "CSS", "Javascript", "UI/UX", "Firebase"],
-  },
-
-
-
-  {
-    Name: 'sim-C',
-    Repo: 'https://github.com/cimplec/sim-c',
-    Owner: 'Siddhartha Dhar Choudhury',
-    github: 'https://github.com/frankhart2018',
-    linkedin: 'https://www.linkedin.com/in/siddhartha-dhar/',
-    Description: `Often people have trouble programming in C (especially beginners) due to its low level syntax and unavailability of stable third party libraries. We present sim-C a high-level front end for C which creates a dynamically typed syntax for C. User can write code in this high level syntax and then compile it to optimized C code. sim-C does not process the code and simply translates it to C thus, there is no possibility of the code running slowly. So, with sim-C users can write code faster using the high level syntax and at the same time be able to harness the power and speed of a C program. Let us make C cool again.`,
-    TechStack: ["C", "Python", "Compiler Design"],
+    Name: "StarBook",
+    Repo: "https://github.com/mohit200008/FoodSaver20008",
+    Owner: "Hashir Shoaib",
+    github: "https://github.com/hashirshoaeb",
+    linkedin: "https://www.linkedin.com/in/hashirshoaeb/",
+    Description: `“StarBook” is a digital diary, and a mood tracking app, that can help you in keeping track of your mood and productivity throughout the month. Mood tracker is a good way to see how you are mostly feeling.`,
+    TechStack: ["Flutter", "Dart"],
   },
 
   {
-    Name: 'Spotify Recommendation Engine',
-    Repo: 'https://github.com/ucalyptus/Spotify-Recommendation-Engine',
-    Owner: 'Sayantan Das',
-    github: 'https://github.com/ucalyptus',
-    linkedin: 'https://www.linkedin.com/in/ucalyptus/',
-    Description: `This is a rapid prototyped presentation of how a Spotify Recommendation Engine should work . A system that recommends songs from your existing playlists using Spotify API and a bit of classical machine learning techniques.
-    Vision
-    To create a flutter clone of Spotify that uses the Recommendation Engine this project is based upon. A lightweight app with basic functionalities of Spotify i.e A Music Player, a playlist that belongs to the user, OAuth capabilities. Playlist functionality is important as it will serve as the basis for future music recommendations based on the features it houses. Goal is to use an implicit matrix factorisation model (originally proposed by Spotify's research team) for usage.`,
-    TechStack: ["Python", "ML", "Fluttter"],
+    Name: "Krishi Lens",
+    Repo: "https://github.com/ayush-raj8/Krishi-Lens",
+    Owner: "AYUSH RAJ",
+    github: "https://github.com/ayush-raj8",
+    linkedin: "https://www.linkedin.com/in/ayush-raj-3427b71ab/",
+    Description: `Krishi Lens will be an Android Application that will help farmers to detect disease in crop just by using smartphone with a camera. This project aims to leverage deep learning algorithm to bring smart farming in India in very economical ways. Farmer just need a smartphone with camera to know the type of disease ( if any) and it's cure just by clicking a photo. It will use tech stacks Android Application Development, Kotlin , Python and Deep Learning.`,
+    TechStack: ["Python", "Kotlin", "Android App Development", "DL"],
   },
 
   {
-    Name: 'Community-website',
-    Repo: 'https://github.com/HITK-TECH-Community/Community-Website',
-    Owner: 'Kajol Kumari',
-    github: 'https://github.com/Kajol-Kumari',
-    linkedin: 'https://www.linkedin.com/in/kajol-kumari-73245b166',
-    Description: `Being from tier-2 and tier-3 colleges, you often face the problem of knowledge gap in our college days. But once you begin walking in the path of tech, you discover a place where people are just like you. 😇✨ We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️ This project aims to build the official site for the community page so that any student can use the resources shared by us.`,
-    TechStack: ["Monstack"],
+    Name: "Food Saver",
+    Repo: "https://github.com/mohit200008/FoodSaver20008",
+    Owner: "Mohit lamba",
+    github: "https://github.com/mohit200008",
+    linkedin: "https://www.linkedin.com/mwlite/in/mohit-l-a75076108",
+    Description: `About 6% of global greenhouse gas emissions is produced due to wastage of food. This cause global warming, harm environment, wastage of food (which can be feed to poor), wastage of resources, and wastage of money. FoodSaver is a web application that keep track of the food in your house, or restaurant and keep warning you to use the product before it got expire and got waste.`,
+    TechStack: ["React", "Edamon API", "Bootstrap", "Styled Components"],
   },
 
   {
-    Name: 'Rotten Scripts',
-    Repo: 'https://github.com/HarshCasper/Rotten-Scripts',
-    Owner: 'Harsh Bardhan Mishra',
-    github: 'https://github.com/harshcasper',
-    linkedin: 'https://www.linkedin.com/in/harshcasper',
-    Description: `Rotten Scripts contains amazing and awesome scripts written in Python, Javascript, Bash, Powershell, and more. Consider this repository as your personal space to find or add any new script that can make life easier for us and the Open Source community too, as a Developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download PDFs from an Online Source or just to randomly like everyone's Instagram Post.`,
-    TechStack: ["Python", "Javascript", "BASH", "Golang"],
+    Name: "Notifly",
+    Repo: "https://github.com/rexdivakar/Notifly",
+    Owner: "Divakar R",
+    github: "https://github.com/rexdivakar/",
+    linkedin: "https://www.linkedin.com/in/divakar-r-9b34b86b/",
+    Description: `Simple Bots to push notifications during an event trigger and it also monitors AI model Metrics`,
+    TechStack: ["Python", "Tenserflow"],
   },
 
   {
-    Name: 'Rajappan',
-    Repo: 'https://github.com/kaiiyer/rajappan',
-    Owner: 'Kai Iyer',
-    github: 'https://github.com/kaiiyer',
-    linkedin: 'https://www.linkedin.com/in/anoop-krishnan47/',
-    Description: `The All in one Security project for Digital Privacy. A step towards a better & secure Internet`,
-    TechStack: [],
+    Name: "GitHub Automation",
+    Repo: "https://github.com/antrikshmisri/Github-Automation",
+    Owner: "Antriksh Misri",
+    github: "https://github.com/antrikshmisri/",
+    linkedin: "https://www.linkedin.com/in/antriksh-misri-b631361a1/",
+    Description: `"What is it about?
+
+    Are you tired of writing the same git commands over and over again? If so, this project can help you reduce that effort significantly. The app does this by automating a lot of stuff for you. The user just has to enter the commit message for the changed file, rest the app handles everything for the user.
+    
+    Features of GitHub - Automation
+    
+    1. Removes repetition of entering same git commands
+    2. Displays the changed file along with its diff/raw-diff for making it easy to write commit messages
+    3. Auto pushes the files that have been committed
+    4. Stores the staged files status locally so the files can be committed and pushed later on.
+    5. Clean and clutter-free UI"`,
+    TechStack: ["React", "Python", "JavaScript"],
   },
 
   {
-    Name: 'Github Spy',
-    Repo: 'https://github.com/YashKumarVerma/github-spy',
-    Owner: 'Yash Kumar Verma',
-    github: 'https://github.com/yashkumarverma',
-    linkedin: 'https://www.linkedin.com/in/yash-kumar-verma/',
-    Description: `"Do you lead an organization? or are you a maintainer of some open source project? Even if you are neither of the above, there can be instances when you might be required to generate quick reports of any Github organization. This can cover anything as simple as getting the name of all repositories or things a bit tricky like ensuring projects contain a particular structure.
-    GithubSpy is the bot that you need. With a robust structure to develop upon, we are looking for contributors willing to add more features."`,
-    TechStack: ["Javascript", "MySQL Database", "Data Mocking"],
+    Name: "Sentence Rephraser",
+    Repo: "https://github.com/chandrikadeb7/sentence-rephrase",
+    Owner: "Chandrika Deb",
+    github: "https://github.com/chandrikadeb7/",
+    linkedin: "https://www.linkedin.com/in/chandrika-deb/",
+    Description: `This will be a one-stop solution for sentence rephrasing to avoid plagiarism in text. The input paragraph will be rephrased to give a plagiarised free output via a rephrase API built from scratch in Python.`,
+    TechStack: ["Python", "JavaScript", "HTML", "TypeScript", "API", "CSS"],
+  },
+  {
+    Name: "AI Interview Mock-Up System",
+    Repo: "https://github.com/aryasoni98/AI-Interview",
+    Owner: "Arya Soni",
+    github: "https://github.com/aryasoni98",
+    linkedin: "https://www.linkedin.com/in/aryasoni/",
+    Description: `Selection in big companies requires an aspirant to be proficient in coding as well as fluent in his words. The latter sometimes becomes a major anchor for various students with the ability to achieve high otherwise. This is a problem that our current interface looks at resolving. We are building an interface that helps users with a situation by the use of an AI that asks questions on the basis of a code which the aspirant has written, asked from a diverse pack of frequently asked coding questions. Then the AI asks the aspirant questions related to his code and some staple questions. At the end of this experience, the user receives his interview profile showing him his flaws in answering questions, his fluency, and his ability to handle the situation verbally. This can be done on various levels and be stored for future scrutiny by the user. We can also provide a growth curve that helps the aspirant to judge his progress.`,
+    TechStack: ["ML/AI", "Flask", "React.js", "Node.js", "Rest API", "Docker"],
+  },
+  {
+    Name: "Canvasboard",
+    Repo: "https://github.com/Canvasbird/canvasboard",
+    Owner: "Goli Akshay Sujith",
+    github: "https://github.com/goliakshay357",
+    linkedin: "https://www.linkedin.com/in/goliakshay/",
+    Description: `An interactive board with plugins focusing on replacing the need of multiple platforms for teaching, presenting, managing or explaining your ideas.`,
+    TechStack: ["Angular", "Nodejs", "MongoDB", "AWS"],
+  },
+  {
+    Name: "WordNook",
+    Repo: "https://github.com/ALPHAVIO/WordNook",
+    Owner: "Pranav Mendiratta",
+    github: "https://github.com/Pranav016",
+    linkedin: "https://linkedin.com/in/pranav-mendiratta",
+    Description: `Dynamically updating blogging website to upload articles and blog posts on various topics, developed using ejs template engine and node js in the backend.`,
+    TechStack: [
+      "HTML",
+      "CSS",
+      "Heroku",
+      "Mongoose",
+      "Express.js",
+      "EJS",
+      "Node.js",
+    ],
+  },
+  {
+    Name: "Auto-DL",
+    Repo: "https://github.com/Auto-DL/Auto-DL",
+    Owner: "Aditya Srivastava",
+    github: "https://github.com/ADI10HERO",
+    linkedin: "https://www.linkedin.com/in/adi10hero/",
+    Description: `Auto-DL helps you make Deep Learning models without writing a single line of code and giving as little input as possible. It is a futuristic way of building deep learning models. A drag and drop GUI is provided to generate the deep learning models. Auto-DL eliminates a lot of prerequisites for Deep learning including but not limited to the expertise in programing language or a deep learning framework, hassle of setting up a programming environment, and managing dependencies.`,
+    TechStack: [
+      "Django",
+      "Django Rest Framework",
+      "ReactJS",
+      "NextJs",
+      "Redux",
+      "Markdown",
+      "HTML",
+      "CSS",
+      "JS",
+    ],
+  },
+  {
+    Name: "Face-X",
+    Repo: "https://github.com/akshitagupta15june/Face-X",
+    Owner: "Akshita Gupta",
+    github: "https://github.com/akshitagupta15june",
+    linkedin: "https://www.linkedin.com/in/akshita-gupta-a4a895187",
+    Description: `Recognition of faces by different algorithms and frameworks. Despite a variety of open-source face recognition frameworks available, there was no ready-made solution to implement. So In this project, all kinds of algorithms are implemented and even with various operations can be implemented in a frontal face.`,
+    TechStack: ["Python", "AI/ML", "CNN", "Matlab", "IoT"],
+  },
+  {
+    Name: "Community-Website",
+    Repo: "https://github.com/HITK-TECH-Community/Community-Website",
+    Owner: "Kajol Kumari",
+    github: "https://github.com/Kajol-Kumari",
+    linkedin: "https://www.linkedin.com/in/kajol-kumari-73245b166/",
+    Description: `Being from tier-2 and tier-3 colleges, you often face the problem of knowledge gap in our college days. But once you begin walking in the path of tech, you discover a place where people are just like you. 😇✨ We are a group of HITK students trying to fill the knowledge gap and help you find your place of discovery by sharing you the opportunities and resources at the right time!⏱️
+    This project aims to build the official site for the community page so that any student can use the resources shared by us.`,
+    TechStack: ["React", "NodeJS", "MongoDB", "CSS"],
+  },
+  {
+    Name: "PatternHouse",
+    Repo: "https://github.com/PatternHouse",
+    Owner: "Arya Shah",
+    github: "https://github.com/aryashah2k",
+    linkedin:
+      "Retrieving data. Wait a few seconds and try to cut or copy again.",
+    Description: `PatternHouse is a collection of Multi Language Repositories which houses all sorts of printing pattern programs covered by languages such as Python, C, C++, Java, Javascript and C#. All the pattern programs are displayed under the official PatternHouse Website with an intuitive Frontend, Backend and a Database of all the patterns.`,
+    TechStack: [
+      "C",
+      "C++",
+      "Java",
+      "Python",
+      "C#",
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Shell",
+    ],
+  },
+  {
+    Name: "Thief Detection",
+    Repo: "https://github.com/neha07kumari/Thief_Detection",
+    Owner: "Neha Kumari",
+    github: "https://github.com/neha07kumari",
+    linkedin: "https://www.linkedin.com/in/neha-kumari-09415a16b/",
+    Description: `This project  helps to detect that whether a person coming to your house is a thief or not , while you are away from your house enjoying your holiday or a trip by sending an alert message and also an attached image of the person in your email address.`,
+    TechStack: [
+      "python",
+      "tkinter",
+      "cv2",
+      "numpy",
+      "smtplib",
+      "Machine learning",
+    ],
+  },
+  {
+    Name: "Exam Result Generator",
+    Repo: "https://github.com/Ash515/ExamResultGenerator",
+    Owner: "Ashwin Kumar R",
+    github: "https://github.com/Ash515",
+    linkedin: "https://www.linkedin.com/in/ashwinkumarramasamy/",
+    Description: `"The general portal for publishing exam results at universities. Students can get their exam results without any other medium like Email, Messaging etc. There are two modes of users,
+    Students.
+    Administrator i.e COE."`,
+    TechStack: ["JavaScript", "HTML", "CSS", "Python", "Flask", "MySQL", "SQL"],
+  },
+  {
+    Name: "PyDataStructs",
+    Repo: "https://github.com/codezonediitj/pydatastructs",
+    Owner: "Gagandeep Singh",
+    github: "https://github.com/czgdp1807",
+    linkedin: "https://www.linkedin.com/in/czgdp1807/",
+    Description: `"This project aims to be a Python package for various data structures in computer science. We are also working on the development of various algorithms including parallel algorithms. To the best of our knowledge, a well-designed library/package which has covered most of the data structures and algorithms including their parallel implementation doesn't exist.
+    Once the software design becomes more stable after a few releases of this package in the near future, we also aim to provide APIs for the code in C++ and Java as well."`,
+    TechStack: ["Python 3.x", "Git"],
+  },
+  {
+    Name: "Opentek",
+    Repo: "https://github.com/Opentek-Org/opentek",
+    Owner: "Anirudh Panda",
+    github: "https://github.com/AnirudhPanda",
+    linkedin: "https://www.linkedin.com/in/anirudhpanda/",
+    Description: `Opentek is your number one source for Open Source Development. We're dedicated to giving you the very best of tools, resources, and projects, with a focus on Collaboration, Code, and Networking.`,
+    TechStack: ["HTML5", "CSS3", "JavaScript", "Bootstrap"],
+  },
+  {
+    Name: "Project Sirius",
+    Repo: "https://github.com/CYBORG-NIT-ROURKELA/project-sirius",
+    Owner: "Divya Sri Darimisetti",
+    github: "https://github.com/irsayvid",
+    linkedin: "https://www.linkedin.com/in/divya-sri-darimisetti/",
+    Description: `End-to-end application for Mass certificate generation`,
+    TechStack: ["HTML", "CSS", "JS", "Jquery (Ajax)", "PHP", "MySQL"],
+  },
+  {
+    Name: "Debug Rank",
+    Repo: "https://github.com/Ritwik880/Debug-Rank",
+    Owner: "Ritwik Sinha",
+    github: "https://github.com/Ritwik880",
+    linkedin: "https://www.linkedin.com/in/ritwik-sinha-8854a2146",
+    Description: `A online coding platform with real time error classication so that we can save run time compliation of the
+    program. Tech: React js, React-Bootstrap, Git/Github, Ace-Editor`,
+    TechStack: ["React", "Html", "Css", "Bootstrap"],
   },
 
- 
   {
-    Name: 'Friday',
-    Repo: 'https://github.com/avinashkranjan/Friday',
-    Owner: 'Avinash Kumar Ranjan',
-    github: 'https://github.com/avinashkranjan',
-    linkedin: 'https://www.linkedin.com/in/avinashkranjan/',
-    Description: `Since after the pandemic almost everything has been moved on virtual world So has Education. All our classes has been moved online and with that all our assignments, test, exams, Viva are being held on online platform as well, With so many assignments deadlines, upcoming exams dates and being busy with our life we forget the deadlines and exam dates on most occasion. I don't know how many of you but it happens to me frequently. So I came up with this app which once feeded with all the required data it'll remind you of the Assignement deadlines, upcoming exams, unfinished homework. So, you can plan your schedule accordingly.`,
-    TechStack: ["Flutter", "Firebase"],
+    Name: "2-DEGREE",
+    Repo: "https://github.com/The-CODE-Plus-Plus-Community/2-Degree-HackACode",
+    Owner: "Debidatta Suryaprakash",
+    github: "https://github.com/debidattasuryaprakash",
+    linkedin: "https://www.linkedin.com/in/debidatta-suryaprakash-65016916b",
+    Description: `A website to make people aware of the current global warming situation and make a interactive website to make people aware of this and to educate people to reduce the increase in temperature to 2 degree celsius for the better livelihood of human beings.`,
+    TechStack: ["HTML", "CSS", "JAVASCRIPT", "REACT"],
+  },
+  {
+    Name: "MetaCall",
+    Repo: "https://github.com/metacall/core",
+    Owner: "Vicente Eduardo Ferrer Garcia",
+    github: "https://github.com/metacall",
+    linkedin: "https://es.linkedin.com/in/viferga",
+    Description: `MetaCall is a cross-platform polyglot engine which allows using libraries from one language into another. We are using it in production for building an high performance FaaS.`,
+    TechStack: [
+      "C/C++",
+      "NodeJS",
+      "JavaScript",
+      "TypeScript",
+      "Ruby",
+      "JVM",
+      "Scala",
+      "DotNet Core",
+      "Wasm",
+      "Docker",
+      "Guix",
+      "Bash",
+    ],
   },
 
   {
-    Name: 'Breast Cancer Predictor',
-    Repo: 'https://github.com/srimani-programmer/Breast-Cancer-Predictor/',
-    Owner: 'SRI MANIKANTA PALAKOLLU',
-    github: 'https://github.com/srimani-programmer',
-    linkedin: 'https://www.linkedin.com/in/srimani-programmer/',
-    Description: `Breast cancer is the most common type of cancer in women. When cancers are found early, they can often be cured. There are some devices that detect breast cancer but many times they lead to false positives, which results in patients undergoing painful, expensive surgeries that were not even necessary. These types of cancers are called benign which do not require surgeries and we can reduce these unnecessary surgeries by using Machine Learning. These predictions will help doctors to do surgeries only when the cancer is malignant, thus reducing unnecessary surgeries for a woman. This project helps us to identify breast cancer in women that helps us to save many lives.`,
-    TechStack: ["Python" , "ML", "flask"],
+    Name: "UniAuth",
+    Repo: "http://github.com/uniauth",
+    Owner: "Yash Kumar Verma",
+    github: "http://github.com/uniauth",
+    linkedin: "https://www.linkedin.com/in/yash-kumar-verma/",
+    Description: `UniAuth is a full-fledged identity provider implemented from scratch in Node.JS and acts as an open-source alternative for Google SignIn. With plugins written for almost 10 frameworks, its a rapidly growing project and easy to get started with.`,
+    TechStack: ["nodejs", "typescript", "django", "flask", "go"],
   },
 
   {
-    Name: 'HackStation',
-    Repo: 'https://github.com/ashishnagpal2498/hackstation',
-    Owner: 'Ashish Nagpal',
-    github: 'https://github.com/ashishnagpal2498',
-    linkedin: 'https://www.linkedin.com/in/ashish-nagpal24',
-    Description: `"Ever missed a coding contest because you completely forget about it or misinterpret the timing, worked anonymous number of hours and still aren't able to convince your boss that you're working. Well we get it all covered for you.
-    We at HackStation provide a platform to share your work in number. Get your working graph reminders for coding contests and share your work among your peers. All you need to do is tell us who you are ? The project will be divided into two parts depending upon whether the user is a developer or an organization. A separate platform for developers as well as organization. For user the basic options available will be dashboard, coding contest reminders profile, whereas for organization productivity will be divided into teams and graphs shown accordingly."`,
-    TechStack: ["HTML", "CSS", "bootstrap", "ReactJs" , "MongoDB" , "GraphQL", "Nodejs"],
+    Name: "FireFlyJS",
+    Repo: "https://github.com/FireflyJS/fireflyjs-core",
+    Owner: "Aryaman Grover",
+    github: "github.com/Aryaman1706",
+    linkedin: "https://www.linkedin.com/in/aryaman-grover-77209b1a5/",
+    Description: `FireflyJS is an ODM(Object Document Model) for Firestore. To maintain data consistency in a particular collection, we run schema validation before every write. For using firefly, you first need to describe the type of data you want to store in a particular collection and define the corresponding object schema. The schema would validate your data on creating and updating it before adding it to the collection. You can specify required/default keys and perform checks related to the structure of the input data to ensure that only valid data makes it to the database. Once the schema is defined, now you are ready to make a model for this. With the model available to you, you can query the data, perform update operations, etc. You can perform compound queries, structure the queried data however you want with sort, limit, startAt, etc.
+    On top of that, you can also use operators like $gte(greater than or equal), $in, etc, to query the appropriate documents. The result of the query would be either a single instance or an array of Documents. You can read data, update, delete this document. Hence firefly greatly smoothens the interaction with firestore, also adding schema validation, structuring data, etc.
+    `,
+    TechStack: ["TypeScript", "FireStore"],
   },
 
   {
-    Name: 'ChessJS',
-    Repo: 'https://github.com/ashishpapanai/chessJS',
-    Owner: 'Ashish Papanai',
-    github: 'https://github.com/ashishpapanai',
-    linkedin: 'Https://linkedin.com/in/ashishpapanai',
-    Description: `It's a 2300+ ELO Rated Javascript-based ChessEngine which helps to analyse moves and play with another AI Chess Engine`,
-    TechStack: ["Reinforcement Learning", "Vanilla JS", "Web Dev", "GOFAI"],
+    Name: "Hackstation",
+    Repo: "https://github.com/ashishnagpal2498/hackstation",
+    Owner: "Ashish Nagpal",
+    github: "https://github.com/ashishnagpal2498",
+    linkedin: "https://www.linkedin.com/in/ashish-nagpal24/",
+    Description: `It is a web-app that help you track your coding status, showing it in form of dashboard. It also provides reminders to users for various competitive coding contest under one place. The project is divided into two phase - for developer and an organization. The organization can track the coding status for their employees team wise. The basic idea was show cast your work so that you don't have to work extra time.
+    `,
+    TechStack: ["MERN stack", "GraphQL"],
   },
 
   {
-    Name: 'Realate',
-    Repo: 'https://github.com/deluminators/Realate',
-    Owner: 'Sanjiban Sengupta',
-    github: 'https://github.com/kahanikaar',
-    linkedin: 'https://www.linkedin.com/in/sanjiban-sengupta/',
-    Description: `"real-time real-estate data prediction & analysis
-    A robust application providing support for predicting and detecting land quality & cover, its optimal usage for building flats or property, its generative model, and optimal paths to electric/water/sewage reserve."`,
-    TechStack: ["Machine Learning", "Django", "React", "Tensorflow", "Pytorch", "Computer Vision", "OpenCV", "GANs"],
+    Name: "WildCare",
+    Repo: "https://github.com/VikasPandey121/WildCare",
+    Owner: "Vikas Kumar",
+    github: "https://github.com/VikasPandey121",
+    linkedin: "https://www.linkedin.com/in/VikasPandey121/",
+    Description: `This project aware our users through an interactive game and gives security to Humans and Wild animals by sharing their real-time location to the enrolled trustworthy contacts with just a click. It has a dashboard screen with options for ""Missing Animal Report"", ""NGO Details"", ""Endangered Animals"", and ""Play Game"". Also shows examples from the game, including a number of questions to answer. Shows use of reporting portion of the app for missing animals or people and the setup of emergency contacts.
+    The problem WildCare solves
+    It solves various problems like
+    1- Sends an alert message to the concerned people with the current location.
+    2- Gives security to humans and animals.
+    3- Teaches the user about why they should not harm our natural habitat by means of an interactive game.
+    4- Helps users connect with other contributors and NGOs, along with the concerned authorities.`,
+    TechStack: ["Android", "java", "Google Map", "Firebase"],
   },
 
   {
-    Name: 'ModernBanking-Management-System',
-    Repo: 'https://github.com/spandey1296/ModernBanking-Management-System',
-    Owner: 'SHIVANT KUMAR PANDEY',
-    github: 'https://github.com/spandey1296',
-    linkedin: 'https://www.linkedin.com/in/shivantkumarpandey/',
-    Description: `This is a modern banking project that has the facility to provide all services on a single platform such as internet banking, wealth management, loan facility, and get information about money transfer updates.`,
-    TechStack: ["Kotlin"],
+    Name: "Attendance Management System(AMS)",
+    Repo: "https://github.com/amanjha8100/AMS",
+    Owner: "Aman Prakash Jha",
+    github: "https://github.com/amanjha8100",
+    linkedin: "https://www.linkedin.com/in/aman-prakash-jha/",
+    Description: `This project is an outcome of the requirement of one of my professor from me as a class representative. I created a attendance management system using django framework, ajax, jquery, javascript, bootstrap, css and HTML. The goal of the project is to create a web app where students can login using their provided credentials and mark their attendance for the class. It uses forms and validators to stop marking attendance for the day other than today. It also enables the admin to download the attendance of the given date in CSV format. The attendance form is only available for users, when the admin allows it.
+    Key Features
+    1) The homepage contains the data of every student of the department.
+    2) The subjects section contains, the subject currently active.
+    3) A login system where users with credentials can only login and mark their attendance using the form.
+    4) The form has custom validators which allows it to take attendance effectively.
+    5) The form is only visible to the normal users when the admin allows it through its admin homepage, which he can access after logging in on the website, with his credentials.
+    6) The admin can download the attendance for the day in CSV form from his homepage.
+    7) Admin has a pause and start button which controls the availability of the attendance form for the normal users on the website.
+    8) The project has also been dockerized.`,
+    TechStack: ["Django", "JavaScript", "Bootstrap", "CSS3", "HTML"],
   },
 
   {
-    Name: 'CityonBikes',
-    Repo: 'https://github.com/preeti13456/CityonBikes',
-    Owner: 'Preeti Sharma',
-    github: 'https://github.com/Preeti13456',
-    linkedin: 'https://www.linkedin.com/in/preeti-sharma-155a85181/',
-    Description: `"Created a website for renting bikes
-    https://cityonbikes.herokuapp.com/"`,
-    TechStack: ["HTML" , "CSS" , "Javascript", "python", "django"],
+    Name: "CSwaala-Web",
+    Repo: "https://github.com/CSwala/CSwala-website",
+    Owner: "Rituraj Jain",
+    github: "https://github.com/riturajjain2000",
+    linkedin: "https://www.linkedin.com/in/riturajjain2000/",
+    Description: `I have seen many people emphasizing how you can learn anything from the internet very easily and I also believe that the internet is a great leveler.
+    But the problems are :
+    1)There is no structure of content 
+    2) Many options for the same thing sometimes gets overwhelming, which is not a great sign for a beginner in any field
+    3) People claiming themselves the best and then FORCING you to buy their paid service as a free one is incomplete 
+    4) Time wastage. We search a lot for good resources and usually end up wasting hours just searching. 
+    
+    Keeping all the above points in mind, I started CSwaala.
+    It is a platform containing all the resources that are required to learn something that's already on the Internet. The benefit is that all these resources are curated by individuals who have already learned the skill, so they know the in and outs and are adding only those resources which really helped them.`,
+    TechStack: ["ReactJS"],
   },
 
   {
-    Name: 'StarBook',
-    Repo: 'https://github.com/hashirshoaeb/star_book',
-    Owner: 'Hashir Shoaib',
-    github: 'https://github.com/hashirshoaeb',
-    linkedin: 'https://www.linkedin.com/in/hashirshoaeb/',
-    Description: `“StarBook” is a digital diary, and a mood tracking app. The user will be able to rate his mood for each day and write a short story for him, like how his day was. Color is given to each mood, let’s say, green for a happy mood, red for angry and yellow for a sad mood. The statistics of users will be visualized in a methodical structure. For this the app will form a graph, calendar, each date box is colored with the color of users' aura lets say green for positive spirits. StarBook will cooperate with users to boost their positive energy and train healthy thinking, correspondingly moving towards calmer and patient personality. StarBook will use positive psychology and cognitive behavioral therapy for you to better understand yourself, overcoming stress, anxiety, and depressions. The app is all in all focused to give personalized experience to every individual user, increasing their productivity, objectivity, and emotional health.`,
-    TechStack: [],
-  },
-
-  {
-    Name: 'Jagrati WebApp',
-    Repo: 'https://github.com/garg3133/JagratiWebApp',
-    Owner: 'Priyansh Garg',
-    github: 'https://github.com/garg3133',
-    linkedin: 'https://www.linkedin.com/in/priyansh3133/',
-    Description: `"Jagrati is an initiative by the students of IIITDM Jabalpur (started in 2009) to teach poor and under-privileged children of nearby villages at IIITDM Jabalpur, completely free of cost. Before COVID, we had around 100 students, from the 4 villages adopted by us in the vicinity of our institute, who used to come to our institute in the evening to take classes.
-    Apart from the basic classes, we also prepare students of Class 5 for Navodaya Entrance Examination and we've received great results in past years where one of our students got selected in Navodaya in 2018, one in 2019 and two in 2020.
-    So, this project is a little initiative from my side to help volunteers manage the classes and other day-to-day operations at Jagrati in a better way and make it easier for them to keep track of students, classwork-homework given to them, their attendances and other things and focus more on teaching than these side activities.
-    You may find more details about the project here: https://github.com/garg3133/JagratiWebApp"`,
-    TechStack: ["HTML", "CSS", "Bootstrap4", "VanillaJS", "Python", "Django"],
-  },
-
-  {
-    Name: 'Sampark',
-    Repo: 'https://github.com/The-Robotics-Forum/sampark',
-    Owner: 'The Robertics Forum',
-    github: 'https://github.com/The-Robotics-Forum',
-    linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
-    Description: `This is a free and open source team chat collaboration platform that allows user to communicate securely in Realtime ,Share File, Location and code snippet as well as create private rooms.`,
-    TechStack: ["MERN"],
-  },
-  
-  {
-    Name: 'Stack Over Flow Tag Predictions',
-    Repo: 'https://github.com/Technocolabs100/Stack-Overflow-Tag-Predictions',
-    Owner: 'Yasin Shah',
-    github: 'https://www.github.com/Yasin-Shah',
-    linkedin: 'https://www.linkedin.com/in/yasin-shah-139970141/',
-    Description: `"Our classifiers performed reasonably well;
-they succeeded in predicting at least one
-correct tag for many questions correctly, even
-if they did not predict every tag correctly.
-• Because of the sparsity of the tags present
-in our dataset, we were curious as to
-whether tag prevalence in the dataset was
-strongly correlated with the performance of
-that tag’s corresponding classifier.
-• However, our analysis showed that a better
-criterion for success of a classifier is how
-unique its tag is, and if there are other
-words in the vocabulary which uniquely
-identify it.
-• While tags which are easy to predict
-usually correspond to some specific
-keywords, tags which are difficult to predict
-usually cover a larger subject area, are
-Our more broad, or have many applications."`,
-    TechStack: ["Data Science", "Machine Learning", "Data Analysis", "Deep learning"],
-  },
-  
-  {
-    Name: 'Review My Project',
-    Repo: 'https://github.com/Technocolabs100/Stack-Overflow-Tag-Predictions',
-    Owner: 'Yasin Shah',
-    github: 'https://www.github.com/Yasin-Shah',
-    linkedin: 'https://www.linkedin.com/in/yasin-shah-139970141/',
-    Description: `Create a Web Application that User Have to Submit your own Project details like working videos, links, photos, and their code to review by Developer experts.`,
-    TechStack: ["HTML", "CSS", "Javascript", "PHP", "Mangodb", "MySql Database", "React", "NODE JS"],
-  },
-  
-  {
-    Name: 'PortfolioFy',
-    Repo: 'https://github.com/kaustubhgupta/PortfolioFy',
-    Owner: 'Kaustubh Gupta',
-    github: 'https://github.com/kaustubhgupta',
-    linkedin: 'https://www.linkedin.com/in/kaustubh-gupta-612767ab/',
-    Description: `As a developer we create hundreds of repositories and hardly 15-20 of them actually make it to final project we deploy and showcase on social media/linkedin. This GitHub action allows you to generate your perfect self updating portfolio with Projects, Hackathons and latest Blogs (optional). An index file is generated by this action which with the help of GitHub pages gets deployed as soon as it is commited the repository.`,
-    TechStack: ["Python", "HTML", "CSS", "Javascript", "GitHub Actions", "API"],
-  },
-  
-   {
-    Name: 'Hacking-Scripts',
-    Repo: 'https://github.com/Tejas1510/Hacking-Scripts',
-    Owner: 'Tejas Sudhir Tapas',
-    github: 'https://github.com/Tejas1510',
-    linkedin: 'https://www.linkedin.com/in/tejas-tapas-971847171/',
-    Description: `Hacking Scripts contains amazing and awesome scripts written in Python, Javascript, Java, Nodejs, and more. The main aim of the repository will be to provide utility scripts that might make everyday life easy.`,
-    TechStack: ["Python", "Javascript", "Nodejs", "Java"],
-  },
-  
-  {
-    Name: 'Manthan',
-    Repo: 'https://github.com/Manthan933/Manthan',
-    Owner: 'Avishanker Mishra',
-    github: '#',
-    linkedin: '#',
-    Description: `"1. Improve the backend performance using Node.js and Express.js.
-2. Improve REST API by latest programming techniques.
-3. Form frontend, you have to implement multiple components in react and improve some basic components.
- 4. Dockerizing the application with local mogodb and integrate Travis CI with this project ."`,
-    TechStack: ["Nodejs", "Reactjs", "Expressjs", "Mongodb", "Docker", "MaterialUI"],
+    Name: "Health Bliss",
+    Repo: "https://github.com/ishitakapoor26/HealthBliss",
+    Owner: "Ishita Kapoor",
+    github: "https://github.com/ishitakapoor26",
+    linkedin: "https://www.linkedin.com/in/ishita-kapoor-789141184/",
+    Description: `Health Bliss basically helps people to contact therapist to fight depression, anxiety and bipolar disorders. Not only that, the static website will prove to be a good read for the health concerned people as it includes a good number of blogs. Future aspect of the project will be to include games in the site in order to relief people from depression and bipolar disorders.`,
+    TechStack: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   },
   {
-    Name: 'Netra',
-    Repo: 'https://github.com/The-Robotics-Forum/netra',
-    Owner: 'The Robotics Forum',
-    github: 'https://github.com/The-Robotics-Forum',
-    linkedin: 'https://www.linkedin.com/company/the-robotics-forum/',
-    Description: `Android Application used in TRF's Flagship Level 1 Workshop every year.`,
-    TechStack: ["Kotlin","OpenCV","Google vision API", "MaterialUI"],
+    Name: "CodeStreak",
+    Repo: "https://github.com/nerdynikhil/codestreak",
+    Owner: "Nikhil Barik",
+    github: "https://github.com/nerdynikhil/",
+    linkedin: "https://www.linkedin.com/in/nerdynikhil/",
+    Description: `Codestreak maintains your daily momentum throughout all the platforms like Github, Codepen, Codeforces, Codechef, Hackerearth, SPOJ, Hackerrank, Leetcode, InterviewBit and so on together at one place by monitoring your submissions. Users can keep track of their activities everyday with the heatmap. The Codestreak "score"can be a great measure of consistency for coders.`,
+    TechStack: ["Next.js", "firebase"],
+  },
+  {
+    Name: "Rema",
+    Repo: "https://github.com/paramsiddharth/rema",
+    Owner: "Param Siddharth",
+    github: "https://github.com/paramsiddharth",
+    linkedin: "https://linkedin.com/in/paramsiddharth",
+    Description: `Rema is a powerful and scalable certificate generation, management, and verification system.
+    `,
+    TechStack: ["JavaScript", "NodeJS", "MongoDB", "Express", "Canvas API"],
+  },
+  {
+    Name: "Student portal",
+    Repo: "https://github.com/shivshankar9/Student-portal",
+    Owner: "Shiv shankar kumar",
+    github: "https://www.github.com/shivshankar9",
+    linkedin: "https://www.linkedin.com/in/shivshankarkumar281",
+    Description: `In this project wish to include all those features that students and other professional needed at urgently like , pdf editor converter size customization and much more also we sometimes unable to work without that work getting done without using desktop or third party application and we gets stuck, so moving forward to solving that problem don't needed to visit many site just visit here.`,
+    TechStack: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    Name: "Virtual Key Board Using Opencv",
+    Repo: "https://github.com/AnuvabSen/Virtual_Key_Board_Using_Opencv",
+    Owner: "Anuvab Sen",
+    github: "https://github.com/AnuvabSen",
+    linkedin: "https://www.linkedin.com/in/anuvab-sen-316383202/",
+    Description: `That is Virtual Air Keyboard using Opencv a computer vision project in my university`,
+    TechStack: ["Python using libraries like numpy pandas opencv"],
   },
 ];
