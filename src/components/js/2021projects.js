@@ -28,7 +28,143 @@ export const currentProjects = [
     Description: `This project is based on the idea to convert tedious-looking code into an interactive flowgraph to make it easier to understand and debug errors which would, in turn, increase the productivity of the developer. This project's final product would be a vs code extension to run in real time.`,
     TechStack: ["Python", "JavaScript", "Designing"],
   },
+  {
+    Name: "Moosync",
+    Repo: "https://github.com/Moosync/Moosync",
+    Owner: "Sahil Gupte",
+    github: "https://github.com/ovenoboyo",
+    linkedin: "https://www.linkedin.com/in/sahil-gupte-1827581a4/",
+    Description: `It is an Electron based simple music player with a primary goal to provide a clean and easy interface. Through Moosync one can easily listen songs from your desktop or through Youtube and Spotify. It also provides an extension API through which one can also develop extensions on top of Moosync.`,
+    TechStack: ["Electron", "TypeScript", "Vue", "Node JS"],
+  },
+  {
+    Name: "Camprec",
+    Repo: "https://github.com/Incentive-Coders/camprec",
+    Owner: "Yasharth Dubey",
+    github: "https://github.com/yasharth291",
+    linkedin: "https://www.linkedin.com/in/yasharth-dubey-0434b6155/",
+    Description: `CAMPREC is the pioneer of organized recruitment services in India. Over a few months, we have acted as preferred talent acquisition partners to multinationals , leading Indian businesses and aspiring students to emerge as the leading talent solutions provider in India. This combined with our role as trusted consultants for Indian professionals translates into our core capability - Building Careers. Building Organisations. CAMPREC’s roots in management consulting bring a unique approach to recruitment at senior and middle management levels`,
+    TechStack: ["Electron", "React", "HTML", "Node JS", "CSS", "MongoDB"],
+  },
+  {
+    Name: "Checkpoint",
+    Repo: "https://github.com/antrikshmisri/checkpoint",
+    Owner: "Antriksh Misri",
+    github: "https://github.com/antrikshmisri",
+    linkedin: "https://www.linkedin.com/in/antriksh-misri-b631361a1/",
+    Description: `1. Checkpoint is a CLI (Command Line Interface) tool that helps in creating restore/history points in our project and allows users to go back and forth between different restore points. 
 
+    2. The concept is very similar to something called tagging in git CLI tool. The major difference being checkpoint doesn’t need the project to be git initialized. 
+    Checkpoint introduces a new approach for eliminating the need to git initialize a project and host it on GitHub and then run extensive git commands just to create an archive version of the project. With checkpoint creating a backup is as simple as writing a single line of command in the terminal.
+    
+    3. This enables it to work with essentially any type of project. This means the project need not be a technical project, it can be a directory containing an essay. We can create restore points for that essay so that we can compare different iteration of the same essay with each other and pick the best version.
+    
+    4. Also, checkpoint brings multiple sequence classes that allow a user to easily initialize checkpoint in various environments and even define his/her custom sequence. Currently, checkpoint has a CLI sequence which allows checkpoint to work in a command-line environment.`,
+    TechStack: ["Python", "CLI", "Testing", "UI"],
+  },
+  {
+    Name: "Developer Empire",
+    Repo: "https://github.com/swapnilsparsh/DevEmpire/",
+    Owner: "Swapnil Srivastava",
+    github: "https://github.com/swapnilsparsh",
+    linkedin: "https://www.linkedin.com/in/swapnil-srivastava-sparsh/",
+    Description: `All in one place where you can find all the resources and details of ambassador/fellowship, open-source events, web dev sites, js toolkits and etc. that are available across different sites. These are verified and crowdsourced by the community.`,
+    TechStack: ["React JS", "SASS"],
+  },
+  {
+    Name: "Developer Empire",
+    Repo: "https://github.com/swapnilsparsh/DevEmpire/",
+    Owner: "Swapnil Srivastava",
+    github: "https://github.com/swapnilsparsh",
+    linkedin: "https://www.linkedin.com/in/swapnil-srivastava-sparsh/",
+    Description: `All in one place where you can find all the resources and details of ambassador/fellowship, open-source events, web dev sites, js toolkits and etc. that are available across different sites. These are verified and crowdsourced by the community.`,
+    TechStack: ["React JS", "SASS"],
+  },
+  {
+    Name: "PixelVibe",
+    Repo: "https://github.com/ankitapuri/pixelvibe",
+    Owner: "Ankita Puri",
+    github: "https://github.com/ankitapuri",
+    linkedin: "https://www.linkedin.com/in/ankita-puri-2702ab190",
+    Description: `PixelVibe is a pixel-art maker which is mainly made for the creative art lover in you`,
+    TechStack: ["JavaScript", "CSS", "HTML", "Django"],
+  },
+  {
+    Name: "Online IDE",
+    Repo: "https://github.com/NegiAkash890/editor-frontend/tree/main",
+    Owner: "Akash Negi",
+    github: "https://github.com/NegiAkash890",
+    linkedin: "https://www.linkedin.com/in/akash-negi-8900",
+    Description: `Building modern open-source compiler`,
+    TechStack: ["React", "Node JS"],
+  },
+  {
+    Name: "E-bureau",
+    Repo: "https://github.com/geekymeeky/e-bureau",
+    Owner: "Madiha Mallick",
+    github: "https://github.com/geekymeeky",
+    linkedin: "https://www.linkedin.com/in/madiha-mallick-4410a1207/",
+    Description: `This is an E- platform used by both public and police for making Crime Management easier. This includes general diary, crime reports and reporting of missing person.`,
+    TechStack: ["Next.js", "MongoDB Atlas", "Tailwind CSS", "JavaScript", "Postman", "CSS3"],
+  },
+  {
+    Name: "Blood Buddy",
+    Repo: "https://github.com/2024-SANDHYA/Blood-Buddy.git",
+    Owner: "Sandhya Agarwal",
+    github: "https://github.com/2024-SANDHYA",
+    linkedin: "https://www.linkedin.com/in/sandhya-agarwal-content-writer/",
+    Description: `"It is a website developed for easy blood donation during COVID-19. The website's concept is that once a person registers, he will be able to view his nearest blood banks & can contact them, and also those who need blood will be able to speak with one another through the website. I've used HTML CSS & JS so that newbies can also add functionalities and can turn this idea into reality with their creativity. "`,
+    TechStack: ["HTML", "CSS", "JS"],
+  },
+  {
+    Name: "Dust-Road-Co",
+    Repo: "https://github.com/2024-SANDHYA/Dust-Road-Co.git",
+    Owner: "Sandhya Agarwal",
+    github: "https://github.com/2024-SANDHYA",
+    linkedin: "https://www.linkedin.com/in/sandhya-agarwal-content-writer/",
+    Description: `It is a carpooling website , with a concept of sustainable development. The idea of the website is that the user can see those within 5 km who are traveling to the same destination and can carpool with them.`,
+    TechStack: ["HTML", "CSS", "JS"],
+  },
+  {
+    Name: "Clone-IT",
+    Repo: "https://github.com/Rayman-Sodhi/Clone-IT",
+    Owner: "Rayman Kour Sodhi",
+    github: "https://github.com/Rayman-Sodhi",
+    linkedin: "https://www.linkedin.com/in/rayman-kour-sodhi-997b651a3/",
+    Description: `The idea behind this project is to learn  how different websites are made by directly cloning them using the same layout and design . I  have worked on clones of few websites of flipkart,linkedIn ,zoom and KFC.  New contributors can ad more websites to the list and suggest new features in the existing ones .Also there is scope to introduce new features in websites and thus creating a upgraded version of their clone .This project will help contributors to learn front-end development as well as backend .It also has scope for various tech-stacks .I sincerely hope that this project can help and reach new heights in SWOC program.`,
+    TechStack: ["HTML", "CSS", "Bootstrap", "Javascript", "Node.js", "Express.js", "WebRTC"]
+  },
+  {
+    Name: "ML Crate",
+    Repo: "https://github.com/abhisheks008/ML-Crate",
+    Owner: "Abhishek Sharma",
+    github: "https://github.com/abhisheks008",
+    linkedin: "https://www.linkedin.com/in/abhishek-sharma-aa06a9183/",
+    Description: `As we all know the BGMI Loot Crate comes with so many resources for the gamers, this ML Crate will be the hub of various ML projects which will be the resources for the ML enthusiasts!`,
+    TechStack: ["Python", "Machine Learning", "Data Science"]
+  },
+  {
+    Name: "Chathub",
+    Repo: "https://github.com/soumik2012/Chathub",
+    Owner: "Soumik Kumar Baithalu",
+    github: "https://github.com/soumik2012",
+    linkedin: "https://www.linkedin.com/in/soumikbaithalu/",
+    Description: `The main goal of the project is to connect with people all around the world. This is a Messenger App, made with react, styled with the help of material UI, and deployed with the help of firebase. If you react Lover feel free to contribute to the project.`,
+    TechStack: ["Html", "CSS", "JavaScript", "React", "Node.js", "Firebase"]
+  },
+  {
+    Name: "Codedigger",
+    Repo: "https://github.com/Code-dig-ger/Frontend",
+    Owner: "Sai Keshari",
+    github: "https://github.com/Code-dig-ger",
+    linkedin: "https://www.linkedin.com/in/sai-keshari-2a3916190/",
+    Description: `Codedigger aims at accumulating the data of competitive programming platforms (Codeforces, Codechef, Atcoder, SPOJ and UVA Online Judge) into one platform. We used their publicly available APIs and introduced several unique features into our application such as friends, mentors, ladders, upsolve, problem and contest filter. This can be the ultimate stop for everyone practicing competitive programming.
+
+    User can practice topicwise list to expertise any topic, levelwise list to practice based on rating and difficulty, or can create their own list and follow that. They can filter problems based on difficulty, tag, or solved by mentor from all the sites combined at one place.
+    
+    Upsolving means to solve those problems, you're not able to solve during the contest. With the help of codedigger, you will be able to upsolve codeforces, codechef, and atcoder contests in an easy and better way.`,
+    TechStack: ["React", "HTML", "CSS", "JavaScript"],
+  },
   {
     Name: "IoT Spot",
     Repo: "https://github.com/prathimacode-hub/IoT-Spot",
@@ -485,4 +621,22 @@ export const currentProjects = [
     Description: `That is Virtual Air Keyboard using Opencv a computer vision project in my university`,
     TechStack: ["Python using libraries like numpy pandas opencv"],
   },
+  {
+    Name: "Coding Easy",
+    Repo: "https://github.com/",
+    Owner: "",
+    github: "https://github.com/",
+    linkedin: "https://www.linkedin.com/in/",
+    Description: ``,
+    TechStack: [],
+  },
+  {
+    Name: "WebFolio",
+    Repo: "https://github.com/",
+    Owner: "",
+    github: "https://github.com/",
+    linkedin: "https://www.linkedin.com/in/",
+    Description: ``,
+    TechStack: [],
+  }
 ];
