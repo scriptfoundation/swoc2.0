@@ -2,8 +2,8 @@ import { React, Component } from "react";
 import "./css/projects_new.scss";
 import { currentProjects } from "./js/2021projects";
 import { pastProjects } from "./js/2020projects";
-import Particles from "react-particles-js";
-import { Snow } from "./snow";
+// import Particles from "react-particles-js";
+// import { Snow } from "./snow";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
