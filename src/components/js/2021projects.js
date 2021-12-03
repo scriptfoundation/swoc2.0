@@ -47,6 +47,15 @@ export const currentProjects = [
     TechStack: ["Electron", "React", "HTML", "Node JS", "CSS", "MongoDB"],
   },
   {
+    Name: "AEC library Website",
+    Repo: "https://github.com/SauravMukherjee44/Aec-Library-Website",
+    Owner: "Saurav Mukherjee",
+    github: "https://github.com/SauravMukherjee44",
+    linkedin: "https://www.linkedin.com/in/sauravmukherjee44",
+    Description: `This is an Open-Source Library Website in which you get Resources to learn different topics, Donate book section to donate your old books, and a Book issue section to keep a record of all the books issued. This website helps you to find the books easily without any cost and the best part about the website is that you can also contribute to the website for others to use the resourses by donating the books you have , all categories of books are welcomed for donation. Come forward to donate the books !!!`,
+    TechStack: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+  },
+  {
     Name: "Checkpoint",
     Repo: "https://github.com/antrikshmisri/checkpoint",
     Owner: "Antriksh Misri",
