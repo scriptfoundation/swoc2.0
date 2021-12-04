@@ -47,6 +47,15 @@ export const currentProjects = [
     TechStack: ["Electron", "React", "HTML", "Node JS", "CSS", "MongoDB"],
   },
   {
+    Name: "AEC library Website",
+    Repo: "https://github.com/SauravMukherjee44/Aec-Library-Website",
+    Owner: "Saurav Mukherjee",
+    github: "https://github.com/SauravMukherjee44",
+    linkedin: "https://www.linkedin.com/in/sauravmukherjee44",
+    Description: `This is an Open-Source Library Website in which you get Resources to learn different topics, Donate book section to donate your old books, and a Book issue section to keep a record of all the books issued. This website helps you to find the books easily without any cost and the best part about the website is that you can also contribute to the website for others to use the resourses by donating the books you have , all categories of books are welcomed for donation. Come forward to donate the books !!!`,
+    TechStack: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+  },
+  {
     Name: "Checkpoint",
     Repo: "https://github.com/antrikshmisri/checkpoint",
     Owner: "Antriksh Misri",
@@ -183,17 +192,9 @@ export const currentProjects = [
     Owner: "Nilarjun Das",
     github: "https://github.com/Xtremilicious",
     linkedin: "https://www.linkedin.com/in/nilarjundas",
-    Description: `"What is it about?
+    Description: `Tutorials are great, but building projects is the best way to learn. Do project based learning and learn code the right way! ProjectLearn aims to bridge this gap by providing a curated list of project tutorials in which learners build an application from scratch. These are divided into different categories, namely, web development, mobile development, game development, machine learning, deep learning and artificial intelligence.
 
-    Are you tired of writing the same git commands over and over again? If so, this project can help you reduce that effort significantly. The app does this by automating a lot of stuff for you. The user just has to enter the commit message for the changed file, rest the app handles everything for the user.
-    
-    Features of GitHub - Automation
-    
-    1. Removes repetition of entering same git commands
-    2. Displays the changed file along with its diff/raw-diff for making it easy to write commit messages
-    3. Auto pushes the files that have been committed
-    4. Stores the staged files status locally so the files can be committed and pushed later on.
-    5. Clean and clutter-free UI"`,
+    Types of contributions to this project includes but are not limited to front-end, back-end, technical writing and graphic design.`,
     TechStack: ["React", "NextJS", "HTML", "CSS", "JavaScript"],
   },
 
@@ -231,7 +232,7 @@ export const currentProjects = [
 
   {
     Name: "StarBook",
-    Repo: "https://github.com/mohit200008/FoodSaver20008",
+    Repo: "https://github.com/hashirshoaeb/star_book",
     Owner: "Hashir Shoaib",
     github: "https://github.com/hashirshoaeb",
     linkedin: "https://www.linkedin.com/in/hashirshoaeb/",
