@@ -81,8 +81,8 @@ class Project extends Component {
             </div>
           </div>
           {/* <div className="p-snow">
-                        <img src={"/img/snow.svg"} alt="snow"></img>
-                    </div> */}
+                  <img src={"/img/snow.svg"} alt="snow"></img>
+              </div> */}
         </header>
         {/* body */}
 
