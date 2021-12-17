@@ -46,6 +46,22 @@ export const currentProjects = [
     TechStack: ["Python", "AI/ML", "CNN", "Matlab", "IoT"],
   },
   {
+    Name: "Checkpoint",
+    Repo: "https://github.com/antrikshmisri/checkpoint",
+    Owner: "Antriksh Misri",
+    github: "https://github.com/antrikshmisri",
+    linkedin: "https://www.linkedin.com/in/antriksh-misri-b631361a1/",
+    Description: `1. Checkpoint is a CLI (Command Line Interface) tool that helps in creating restore/history points in our project and allows users to go back and forth between different restore points. 
+
+    2. The concept is very similar to something called tagging in git CLI tool. The major difference being checkpoint doesn’t need the project to be git initialized. 
+    Checkpoint introduces a new approach for eliminating the need to git initialize a project and host it on GitHub and then run extensive git commands just to create an archive version of the project. With checkpoint creating a backup is as simple as writing a single line of command in the terminal.
+    
+    3. This enables it to work with essentially any type of project. This means the project need not be a technical project, it can be a directory containing an essay. We can create restore points for that essay so that we can compare different iteration of the same essay with each other and pick the best version.
+    
+    4. Also, checkpoint brings multiple sequence classes that allow a user to easily initialize checkpoint in various environments and even define his/her custom sequence. Currently, checkpoint has a CLI sequence which allows checkpoint to work in a command-line environment.`,
+    TechStack: ["Python", "CLI", "Testing", "UI"],
+  },
+  {
     Name: "Attendance Management System(AMS)",
     Repo: "https://github.com/amanjha8100/AMS",
     Owner: "Aman Prakash Jha",
@@ -80,22 +96,6 @@ export const currentProjects = [
     linkedin: "https://www.linkedin.com/in/ankita-puri-2702ab190",
     Description: `PixelVibe is a pixel-art maker which is mainly made for the creative art lover in you`,
     TechStack: ["JavaScript", "CSS", "HTML", "Django"],
-  },
-  {
-    Name: "Checkpoint",
-    Repo: "https://github.com/antrikshmisri/checkpoint",
-    Owner: "Antriksh Misri",
-    github: "https://github.com/antrikshmisri",
-    linkedin: "https://www.linkedin.com/in/antriksh-misri-b631361a1/",
-    Description: `1. Checkpoint is a CLI (Command Line Interface) tool that helps in creating restore/history points in our project and allows users to go back and forth between different restore points. 
-    
-        2. The concept is very similar to something called tagging in git CLI tool. The major difference being checkpoint doesn’t need the project to be git initialized. 
-        Checkpoint introduces a new approach for eliminating the need to git initialize a project and host it on GitHub and then run extensive git commands just to create an archive version of the project. With checkpoint creating a backup is as simple as writing a single line of command in the terminal.
-        
-        3. This enables it to work with essentially any type of project. This means the project need not be a technical project, it can be a directory containing an essay. We can create restore points for that essay so that we can compare different iteration of the same essay with each other and pick the best version.
-        
-        4. Also, checkpoint brings multiple sequence classes that allow a user to easily initialize checkpoint in various environments and even define his/her custom sequence. Currently, checkpoint has a CLI sequence which allows checkpoint to work in a command-line environment.`,
-    TechStack: ["Python", "CLI", "Testing", "UI"],
   },
   {
     Name: "GitHub Automation",
