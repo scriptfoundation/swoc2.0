@@ -1,3 +1,4 @@
+import Jaideep_Img from "../img/Team/Jaideep_S.jpg";
 export const currentTeam = [
   {
     name: "Jai Sadana",
@@ -82,6 +83,17 @@ export const currentTeam = [
       },
     ],
   },
+  {
+    name: 'Jaideep Singh',
+    position: 'Program Manager',
+    image: Jaideep_Img,
+    profiles: [
+      {
+        link: 'https://www.linkedin.com/in/jaideep-singh-26a226208/',
+        icon: 'fa fa-linkedin'
+      }
+    ]
+  },
 
   {
     name: "Chetna Grover",
@@ -146,7 +158,7 @@ export const currentTeam = [
       },
     ],
   },
-  
+
   {
     name: "Muskan Goyal",
     position: "Program manager",
