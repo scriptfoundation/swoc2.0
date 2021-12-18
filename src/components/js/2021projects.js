@@ -52,12 +52,9 @@ export const currentProjects = [
     github: "https://github.com/antrikshmisri",
     linkedin: "https://www.linkedin.com/in/antriksh-misri-b631361a1/",
     Description: `1. Checkpoint is a CLI (Command Line Interface) tool that helps in creating restore/history points in our project and allows users to go back and forth between different restore points. 
-
     2. The concept is very similar to something called tagging in git CLI tool. The major difference being checkpoint doesn’t need the project to be git initialized. 
     Checkpoint introduces a new approach for eliminating the need to git initialize a project and host it on GitHub and then run extensive git commands just to create an archive version of the project. With checkpoint creating a backup is as simple as writing a single line of command in the terminal.
-    
     3. This enables it to work with essentially any type of project. This means the project need not be a technical project, it can be a directory containing an essay. We can create restore points for that essay so that we can compare different iteration of the same essay with each other and pick the best version.
-    
     4. Also, checkpoint brings multiple sequence classes that allow a user to easily initialize checkpoint in various environments and even define his/her custom sequence. Currently, checkpoint has a CLI sequence which allows checkpoint to work in a command-line environment.`,
     TechStack: ["Python", "CLI", "Testing", "UI"],
   },
@@ -231,7 +228,6 @@ export const currentProjects = [
     Repo: "https://github.com/avinashkranjan/Amazing-Python-Scripts",
     Owner: "AVINASH KUMAR RANJAN",
     github: "https://github.com/avinashkranjan",
-    linkedin: "https://www.linkedin.com/in/avinashkranjan/",
     Description: `A curated collection of amazing python scripts from basics to advance with automation task scripts. This is your personal space to find or add any new script that can make life easier for you, as a developer, and find a utility of coding to burst out of boredom. Get started with coding exhilarating scripts that you can use to download pdfs from an online source or just to randomly like everyone's instagram post.`,
     TechStack: ["Python", "JavaScript", "CSS", "HTML"],
   },
@@ -709,7 +705,6 @@ export const currentProjects = [
     Description: `VoxUp is a non-profit digital initiative to uplift and applaud the individuals who have created a difference in our society. This platform hosts all the enriching and impactful stories by storytellers of India documented in local languages!`,
     TechStack: ["HTML", "CSS", "JAVASCRIPT", "BOOTSTRAP", "REACT"],
   },
-
   {
     Name: "TOLLROLL",
     Repo: "https://github.com/prathimacode-hub/TollRoll",
