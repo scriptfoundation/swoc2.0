@@ -1,4 +1,3 @@
-import JaideepImg from '../img/Interns/Jaideep_S.jpg';
 import DivyaImg from '../img/Interns/Divya_S.png';
 import AnushkaImg from '../img/Interns/Anushka_G.jpeg';
 import JayashreeImg from '../img/Interns/Jayashree.jpeg';
@@ -10,19 +9,9 @@ import ShreeImg from '../img/Interns/Shree_M.jpg';
 import RajaImg from '../img/Interns/Raja_S.jpg';
 import AmbujImg from '../img/Interns/Ambuj_S.jpg';
 import SusritaImg from '../img/Interns/SusritaImg.jpeg';
+import TithiImg from '../img/Interns/Tithi_Img.webp';
 
 export const internTeam = [
-    {
-        name: 'Jaideep Singh',
-        position: 'Community Manager Intern',
-        image: JaideepImg,
-        profiles: [
-            {
-                link: 'https://www.linkedin.com/in/jaideep-singh-26a226208/',
-                icon: 'fa fa-linkedin'
-            }
-        ]
-    },
 
     {
         name: 'Minal Madhur ',
@@ -31,6 +20,17 @@ export const internTeam = [
         profiles: [
             {
                 link: 'https://www.linkedin.com/in/minal-madhur-0434b4204',
+                icon: 'fa fa-linkedin',
+            }
+        ]
+    },
+    {
+        name: 'Tithi Soni',
+        position: 'Community Manager Intern',
+        image: TithiImg,
+        profiles: [
+            {
+                link: 'https://www.linkedin.com/in/tithi-soni-85462a201/',
                 icon: 'fa fa-linkedin',
             }
         ]
