@@ -403,7 +403,6 @@ class Home extends Component {
 
         <section className="faqs">
           <h3 className="faq-title">FAQs</h3>
-
           <div className="body-content">
             {FAQs.map((item, index) => {
               return (
