@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.eff32369.chunk.css",
-    "main.js": "/static/js/main.02327108.chunk.js",
-    "main.js.map": "/static/js/main.02327108.chunk.js.map",
+    "main.js": "/static/js/main.1cc01b3e.chunk.js",
+    "main.js.map": "/static/js/main.1cc01b3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a7a4c3ce.js",
     "runtime-main.js.map": "/static/js/runtime-main.a7a4c3ce.js.map",
     "static/css/2.f3b9c281.chunk.css": "/static/css/2.f3b9c281.chunk.css",
@@ -24,6 +24,7 @@
     "static/media/Raja_S.77b3b0fe.jpg": "/static/media/Raja_S.77b3b0fe.jpg",
     "static/media/Shree_M.309803b7.jpg": "/static/media/Shree_M.309803b7.jpg",
     "static/media/Sneha_M.28951b15.jpg": "/static/media/Sneha_M.28951b15.jpg",
+    "static/media/Tithi_Img.958d43d3.webp": "/static/media/Tithi_Img.958d43d3.webp",
     "static/media/Udit_K.b16f1ad7.jpg": "/static/media/Udit_K.b16f1ad7.jpg"
   },
   "entrypoints": [
@@ -31,6 +32,6 @@
     "static/css/2.f3b9c281.chunk.css",
     "static/js/2.33840c78.chunk.js",
     "static/css/main.eff32369.chunk.css",
-    "static/js/main.02327108.chunk.js"
+    "static/js/main.1cc01b3e.chunk.js"
   ]
 }
