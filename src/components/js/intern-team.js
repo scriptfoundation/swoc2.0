@@ -3,7 +3,7 @@ import AnushkaImg from '../img/Interns/Anushka_G.jpeg';
 import JayashreeImg from '../img/Interns/Jayashree.jpeg';
 import MinalImg from '../img/Interns/Minal_M.jpeg';
 import SnehaImg from '../img/Interns/Sneha_M.jpg';
-import UditImg from '../img/Interns/Udit_K.jpg';
+import UditImg from '../img/Interns/Udit_K_2.jpg';
 import PallaviImg from '../img/Interns/Pallavi_U.jpeg';
 import ShreeImg from '../img/Interns/Shree_M.jpg';
 import RajaImg from '../img/Interns/Raja_S.jpg';

@@ -10,17 +10,7 @@
   --logo-l2: #0094ff;
   --logo-l3: #8dc500;
 }
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .team-header {
   font-family: "Roboto", sans-serif;
   width: 100%;
@@ -53,7 +43,9 @@
   max-width: 1080px;
   margin: 0 auto;
   padding: 40px 10px 40px;
+}
 
+.plex-card {
   h1 {
     font-family: "Roboto" !important;
     font-size: 26px !important;
@@ -86,6 +78,26 @@
   opacity: 0.8 !important;
 }
 
+.carousel-container {
+  ._xsi02 {
+    width: 250px !important;
+    height: 310px !important;
+    transform: none !important;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.5) 0 10px 20px 0, inset #333 0 0 0 5px,
+    inset white 0 0 0 6px !important;
+      transform: scale(1.05) !important;
+    }
+  }
+
+  ._wcf8- { 
+    transform: none !important;
+    &:hover {
+      transform: scale(1.05) !important;
+    }
+  }
+}
+
 ._jk5LF {
   * {
     display: block;
@@ -95,7 +107,7 @@
   }
 }
 
-.t-grid .member {
+.plex-card .member {
   position: relative;
   color: var(--winter-w2);
   margin: 0;
@@ -159,70 +171,12 @@
   width: 100%;
   // background: var(--winter-w1);
 }
-.intern-grid {
-  display: flex;
-  .card-img {
-    width: 12.5rem;
-  }
-}
-.intern-heading {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+
+.interns {
+  padding: 30px 0 20px;
+  overflow: hidden;
 }
 
-.intern-heading::after {
-  content: "";
-  height: 5px;
-  width: 21%;
-  display: block;
-  background-color: #e79f4b;
-}
-.Tilt-inner {
-  cursor: pointer;
-  flex-grow: 1;
-}
-.Tilt-inner:hover {
-  .intern-position {
-    animation: fadein 1s linear 1 forwards;
-    display: flex;
-  }
-  ul {
-    animation: fadein 1s linear 1 forwards;
-    display: flex;
-  }
-}
-.intern-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-shadow: 3px 7px rgb(219, 217, 217);
-  .intern-name {
-    font-family: "Roboto" !important;
-    font-size: 22px !important;
-    font-weight: 300 !important;
-    text-shadow: 2px 2px 4px #000 !important;
-    margin: 0 !important;
-  }
-  .intern-position {
-    font-size: 18px;
-    font-weight: 400;
-    margin: 5px 0;
-    color: var(--winter-w1);
-    display: none;
-  }
-  ul {
-    display: none;
-  }
-  a {
-    &.fa-linkedin {
-      color: var(--winter-w2);
-    }
-  }
-}
 // Responsive
 
 @media only screen and (max-width: 1100px) {
@@ -251,5 +205,10 @@
   .t-header {
     transform: scale(0.9);
     padding-top: 20px;
+  }
+  .carousel-container {
+    .rec-slider-container {
+      margin: 0 -50px;
+    }
   }
 }

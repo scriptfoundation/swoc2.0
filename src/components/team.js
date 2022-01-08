@@ -9,6 +9,9 @@ import 'experiment-parallax-depth-card/dist/index.css';
 import { internTeam } from './js/intern-team';
 import Tilt from 'react-tilt';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "react-elastic-carousel";
+
 class Team extends Component {
     constructor(props) {
         super(props);
@@ -31,6 +34,34 @@ class Team extends Component {
         window.addEventListener("resize", this.handleResize);
     }
 
+    renderParallaxDepthCard = (item, index) => {
+        return (
+            <ParallaxDepthCard backgroundUrl={item.image} title={item.name}>
+                <div className="member" key={index}>
+                    {/* <picture>
+                        <img src={item.image} />
+                    </picture> */}
+                    <div className="member-info">
+                        <p>{item.position}</p>
+                        <ul>
+                            {item.profiles.map((el, i) => {
+                                return (
+                                    <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
+                                )
+                            })}
+                        </ul>
+                    </div>
+                </div>
+            </ParallaxDepthCard>   
+        )
+    }
+
+    carouselBreakPoints = [
+        { width: 1, itemsToShow: 1 },
+        { width: 550, itemsToShow: 2 },
+        { width: 768, itemsToShow: 3 },
+        { width: 1200, itemsToShow: 4 },
+    ];
 
     render() {
         return (
@@ -77,60 +108,30 @@ class Team extends Component {
                         </div>
                     </div>
                     <div className="t-cards">
-                        <div className="t-grid">
+                        <div className="t-grid plex-card">
                             {this.state.teamList.map((item, index) => {
                                 return (
-                                    <ParallaxDepthCard backgroundUrl={item.image} title={item.name}>
-                                        <div className="member" key={index}>
-                                            {/* <picture>
-                                                <img src={item.image} />
-                                            </picture> */}
-                                            <div className="member-info">
-                                                <p>{item.position}</p>
-                                                <ul>
-                                                    {item.profiles.map((el, i) => {
-                                                        return (
-                                                            <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
-                                                        )
-                                                    })}
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </ParallaxDepthCard>
+                                    this.renderParallaxDepthCard(item, index)
                                 )
                             })}
                         </div>
                     </div>
-                </section>
-                <div className="t-bottom-bar mt-5 mb-5">
-                    <h1 className="intern-heading">Our Valuable Interns</h1>
-                    <Marquee speed="75" pauseOnHover="true" gradient={false} play={true}>
-                        <div className="intern-grid">
-                            {internTeam.map((item, index) => {
-                                return (
-                                    <Tilt className="Tilt" options={{ max: 85, transition: true, speed: 300, easing: "cubic-bezier(.03,.98,.52,.99)" }}>
-                                        <Card inverse className="Tilt-inner m-3">
-                                            <CardImg height="250" width="250" className="card-img" src={item.image} alt={item.name} />
-                                            <CardImgOverlay className="intern-info">
-                                                <p className="intern-name">{item.name}</p>
-                                                <p className="intern-position">{item.position}</p>
-                                                <div className="member-info">
-                                                    <ul>
-                                                        {item.profiles.map((el, i) => {
-                                                            return (
-                                                                <li key={i}><a target="_blank" href={el.link} className={el.icon}></a></li>
-                                                            )
-                                                        })}
-                                                    </ul>
-                                                </div>
-                                            </CardImgOverlay>
-                                        </Card>
-                                    </Tilt>
-                                )
-                            })}
+
+                    <div className="interns">
+                        <h3 className="card__card__title body-content">Our Valuable Interns</h3>
+                        <div className="carousel-container">
+                            <Carousel breakPoints={this.carouselBreakPoints}>
+                                {internTeam.map((item, index) => {
+                                    return (
+                                        <div className='plex-card'>
+                                            { this.renderParallaxDepthCard(item, index) }
+                                        </div>
+                                    )})
+                                }
+                            </Carousel>
                         </div>
-                    </Marquee>
-                </div>
+                    </div>
+                </section>
             </>
         );
     }
