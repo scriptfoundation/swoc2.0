@@ -21,7 +21,7 @@ export const navItems = [
   },
   {
     title: "Contact Us",
-    url: "mailto:abhishek@anyonecanco.de",
+    url: "mailto:scriptwinterofcode@gmail.com",
   },
 ];
 
