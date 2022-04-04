@@ -238,7 +238,7 @@ class Index extends Component {
                     </div>
                     <div className="footer-copyright-info">
                       <div className="footer-copyright-right">
-                        Copyright © 2020 Script Foundation under the GPL3
+                        Copyright © 2020 SWOC under the GPL3
                         license. All rights reserved.
                       </div>
                     </div>
